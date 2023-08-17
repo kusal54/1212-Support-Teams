@@ -33,7 +33,7 @@ body {
 /*----------- Nav Section Start -----------*/
 #nav-section {
     width: 100%;
-    height: 6vh;
+    height: 60px;
     background-color: #01829c;
 }
 
@@ -78,10 +78,11 @@ body {
 
 /*----------- Hero Section Start -----------*/
 #hero-section {
-    height: 89vh;
+    height: 90vh;
     background-image: url("../img/email-team-hero-img.jpg");
     background-size: cover;
     background-position: center;
+    margin-bottom: -40px;
 }
 
 .hero-section {
@@ -113,10 +114,8 @@ body {
 
 /*----------- Footer Section Start -----------*/
 #footer-section {
-    display: flex;
-    align-items: flex-end;
     background-color: #001b20;
-    height: 5vh;
+    height: 40px;
 }
 
 .footer-wrapper {
@@ -124,7 +123,7 @@ body {
     margin: auto;
     display: flex;
     justify-content: space-between;
-    height: 5vh;
+    height: 40px;
     align-items: center;
 }
 
