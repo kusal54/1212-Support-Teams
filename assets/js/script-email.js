@@ -3,7 +3,6 @@ document.getElementById('hamburgerMenu').onclick = function () {
     document.getElementById('mobileCloseBtn').style.display = "inline";
     document.getElementById('hamburgerMenu').style.display = "none";
     document.getElementById('hamMenu').style.display = "flex";
-    document.getElementById('mobileNav').style.borderBottom = "#ffffff";
     document.getElementById('hero-section').style.display = "none";
     document.getElementById('channel-section').style.display = "none";
     document.getElementById('footer-section').style.display = "none";

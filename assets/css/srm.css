@@ -84,7 +84,6 @@ body {
     height: 60px;
     display: none;
     position: relative;
-    z-index: 999;
 }
 
 .mobile-nav-wrapper {
