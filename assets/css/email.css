@@ -31,7 +31,7 @@ body {
 
 
 /*----------- Nav Section Start -----------*/
-#nav-section {
+#navSection {
     width: 100%;
     height: 60px;
     background-color: #01829c;
@@ -45,7 +45,7 @@ body {
 
 .nav-menu {
     display: flex;
-    gap: 12px;
+    gap: 10px;
     margin: auto;
 }
 
@@ -58,7 +58,6 @@ body {
 .nav-menu li:hover {
     background-color: #00a2c2;
 }
-
 
 .nav-menu a {
     text-decoration: none;
@@ -73,7 +72,83 @@ body {
     font-weight: 550;
 }
 
-/*----------- Nav Section Start -----------*/
+/*----------- Mobile Nav Section Start -----------*/
+#mobileNav{
+    width: 100%;
+    background-color: #00a2c2;
+    height: 60px;
+    display: none;
+    position: relative;
+    z-index: 999;
+}
+
+.mobile-nav-wrapper{
+    width: 80%;
+    margin: auto;
+}
+
+.mobile-nav-menu{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.mobile-nav-menu li{
+    list-style-type: none;
+}
+
+.mobile-nav-menu li i{
+    font-size: 40px;
+}
+
+#mobileCloseBtn{
+    display: none;
+}
+
+#hamMenu{
+    display: none;
+    width: 100%;
+    height: 100vh;
+    background-color: #01829c;
+    margin-top: -60px;
+}
+
+.ham-wrapper{
+    width: 80%;
+    margin: auto;
+    height: 80%;
+    display: flex;
+}
+
+.ham-menu{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding: 0;
+
+}
+
+.ham-menu li{
+    list-style-type: none;
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+    border-bottom: 1px solid #ffffff;
+}
+
+.ham-menu li a{
+    text-decoration: none;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.ham-menu li a:hover{
+    font-weight: 600;
+}
+
+/*----------- Mobile Nav Section End -----------*/
 
 
 /*----------- Hero Section Start -----------*/
@@ -138,7 +213,26 @@ body {
 
 /*----------- Tab and Mobile View Start -----------*/
 
-@media only screen and (max-width: 768px) {}
+
+@media only screen and (max-width: 768px) {
+    #navSection {
+        display: none;
+    }
+
+    .hero-title {
+        font-size: 30px;
+        line-height: 30px;
+    }
+
+    #mobileNav{
+        display: flex;
+    }
+
+    #hamMenu{
+        flex-direction: column;
+    }
+
+}
 
 
 /*----------- Tab and Mobile View End -----------*/
