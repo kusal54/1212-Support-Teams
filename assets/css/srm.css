@@ -199,7 +199,6 @@ body {
 .channel-wrapper {
     width: 80%;
     margin: auto;
-    height: auto;
 }
 
 .social-wrapper {
@@ -340,6 +339,11 @@ body {
         color: #ffffffb4;
         margin: 0;
         width: 50%;
+    }
+
+    .channel-wrapper {
+        width: 90%;
+        margin: auto;
     }
 }
 
