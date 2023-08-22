@@ -19,13 +19,14 @@
 <body>
 
     <!-- Nav Bar Start -->
-    <section id="nav-section">
+    <section id="navSection" class="desktop">
         <div class="navbar">
             <ul class="nav-menu">
                 <li><a href="srm.html">Home</a></li>
                 <li><a href="team-srm.html">Our Team</a></li>
                 <li><a href="targets-srm.html">Targets & Objectives</a></li>
                 <li><a href="answers-srm.html">Sample Answers</a></li>
+                <li><a href="https://www.eslims.gov.lk/eLand/lib/keyboard/t1.html" target="_blank">Unicodes</a></li>
                 <li><a href="https://app.eclincher.com/ec/login" target="_blank">Eclincher</a></li>
             </ul>
             <a id="logoutBtn" href="index.html">Logout <span><i class="fa fa-power-off"></i></span></a>
@@ -33,6 +34,30 @@
     </section>
     <!-- Nav Bar End -->
 
+    <!-- Mobile Nav Bar Start -->
+    <section id="mobileNav">
+        <div class="mobile-nav-wrapper">
+            <ul class="mobile-nav-menu">
+                <li id="hamburgerMenu"><i class="fa fa-bars" style="color: #ffffff;"></i></li>
+                <li id="mobileCloseBtn"><i class="fa fa-times" style="color: #ffffff;"></i></li>
+                <a id="logoutBtn" href="index.html">Logout <span><i class="fa fa-power-off"></i></span></a>
+            </ul>
+        </div>
+    </section>
+    <section id="hamMenu">
+        <div class="ham-wrapper">
+            <ul class="ham-menu">
+                <li><a href="srm.html">Home</a></li>
+                <li><a href="team-srm.html">Our Team</a></li>
+                <li><a href="targets-srm.html">Targets & Objectives</a></li>
+                <li><a href="answers-srm.html">Sample Answers</a></li>
+                <li><a href="https://www.eslims.gov.lk/eLand/lib/keyboard/t1.html" target="_blank">Unicodes</a></li>
+                <li><a href="https://app.eclincher.com/ec/login" target="_blank">Eclincher</a></li>
+            </ul>
+        </div>
+        <p class="footer-details-nav">© SLT Contact Center | All Rights Reserved</p>
+    </section>
+    <!-- Mobile Nav Bar End -->
 
 
     <!-- Team Section Start -->
@@ -49,6 +74,12 @@
                             <p class="member-details">Role : Group Manager</p>
                             <p class="member-details">Designation : Senior Executive Assistant Manager</p>
                             <p class="member-details">Email : ranmali@slt.com.lk</p>
+                        </div>
+                        <div class="member">
+                            <h2 class="member-name">Nishantha Pathirana</h2>
+                            <p class="member-details">Role : Team Leader</p>
+                            <p class="member-details">Designation : Senior Assistant Manager</p>
+                            <p class="member-details">Email : nishanthap@slt.com.lk</p>
                         </div>
                         <div class="member">
                             <h2 class="member-name">Nerasha Hettiarachchi</h2>
@@ -119,8 +150,9 @@
 
 
     <!-- JavaScript Linked -->
-    <script src="assets/js/script.js"></script>
-    
+    <script src="assets/js/script-srm.js">
+
+    </script>
 </body>
 
 </html>

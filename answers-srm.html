@@ -19,13 +19,14 @@
 <body>
 
     <!-- Nav Bar Start -->
-    <section id="nav-section">
+    <section id="navSection" class="desktop">
         <div class="navbar">
             <ul class="nav-menu">
                 <li><a href="srm.html">Home</a></li>
                 <li><a href="team-srm.html">Our Team</a></li>
                 <li><a href="targets-srm.html">Targets & Objectives</a></li>
-                <li><a href="answers-email.html">Sample Answers</a></li>
+                <li><a href="answers-srm.html">Sample Answers</a></li>
+                <li><a href="https://www.eslims.gov.lk/eLand/lib/keyboard/t1.html" target="_blank">Unicodes</a></li>
                 <li><a href="https://app.eclincher.com/ec/login" target="_blank">Eclincher</a></li>
             </ul>
             <a id="logoutBtn" href="index.html">Logout <span><i class="fa fa-power-off"></i></span></a>
@@ -33,6 +34,30 @@
     </section>
     <!-- Nav Bar End -->
 
+    <!-- Mobile Nav Bar Start -->
+    <section id="mobileNav">
+        <div class="mobile-nav-wrapper">
+            <ul class="mobile-nav-menu">
+                <li id="hamburgerMenu"><i class="fa fa-bars" style="color: #ffffff;"></i></li>
+                <li id="mobileCloseBtn"><i class="fa fa-times" style="color: #ffffff;"></i></li>
+                <a id="logoutBtn" href="index.html">Logout <span><i class="fa fa-power-off"></i></span></a>
+            </ul>
+        </div>
+    </section>
+    <section id="hamMenu">
+        <div class="ham-wrapper">
+            <ul class="ham-menu">
+                <li><a href="srm.html">Home</a></li>
+                <li><a href="team-srm.html">Our Team</a></li>
+                <li><a href="targets-srm.html">Targets & Objectives</a></li>
+                <li><a href="answers-srm.html">Sample Answers</a></li>
+                <li><a href="https://www.eslims.gov.lk/eLand/lib/keyboard/t1.html" target="_blank">Unicodes</a></li>
+                <li><a href="https://app.eclincher.com/ec/login" target="_blank">Eclincher</a></li>
+            </ul>
+        </div>
+        <p class="footer-details-nav">© SLT Contact Center | All Rights Reserved</p>
+    </section>
+    <!-- Mobile Nav Bar End -->
 
 
     <!-- Answer Section Start -->
@@ -43,44 +68,44 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-sm">
-                            <p id="tab" class="active-tab">Start Up</p>
+                            <p id="tabStart" class="tab">Start Up</p>
                         </div>
                         <div class="col-sm">
-                            <p id="tab">New Connections</p>
+                            <p id="tabNc" class="tab">New Connections</p>
                         </div>
                         <div class="col-sm">
-                            <p id="tab">Faults</p>
+                            <p id="tabFaults" class="tab">Faults</p>
                         </div>
                         <div class="col-sm">
-                            <p id="tab">Billing</p>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-sm">
-                            <p id="tab">Packages</p>
-                        </div>
-                        <div class="col-sm">
-                            <p id="tab">Package Change</p>
-                        </div>
-                        <div class="col-sm">
-                            <p id="tab">Job Vacancies</p>
-                        </div>
-                        <div class="col-sm">
-                            <p id="tab">Feedbacks</p>
+                            <p id="tabBilling" class="tab">Billing</p>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-sm">
-                            <p id="tab">eTeleshop</p>
+                            <p id="tabPackages" class="tab">Packages</p>
                         </div>
                         <div class="col-sm">
-                            <p id="tab">Self Services</p>
+                            <p id="tabPackageChange" class="tab">Package Change</p>
                         </div>
                         <div class="col-sm">
-                            <p id="tab">Extra GB</p>
+                            <p id="tabJob" class="tab">Job Vacancies</p>
                         </div>
                         <div class="col-sm">
-                            <p id="tab">Other</p>
+                            <p id="tabFeedbacks" class="tab">Feedbacks</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm">
+                            <p id="tabTeleshop" class="tab">eTeleshop</p>
+                        </div>
+                        <div class="col-sm">
+                            <p id="tabSelfServices" class="tab">Self Services</p>
+                        </div>
+                        <div class="col-sm">
+                            <p id="tabGb" class="tab">Extra GB</p>
+                        </div>
+                        <div class="col-sm">
+                            <p id="tabOther" class="tab">Other</p>
                         </div>
                     </div>
 
@@ -89,7 +114,7 @@
 
             <!-- Tabs Section End -->
 
-            <table class="table table-bordered table-settings" id="tblBilling">
+            <table class="table table-bordered table-settings" id="tblStartUp">
                 <thead>
                     <tr>
                         <th scope="col">English</th>
@@ -97,6 +122,7 @@
                     </tr>
                 </thead>
                 <tbody>
+                    <td class="table-title" colspan="2" style="padding: 5px; background-color: #00a2c26e; font-size: 16px;">Greeting Message</td>
                     <tr>
                         <td>Thank you for reaching out. How can we assist you?
                         </td>
@@ -109,6 +135,7 @@
                         <td>ඔබට සහය වීම සඳහා කරුණාකර ඔබගේ ගැටළුව අප වෙත inbox කරන්න.
                         </td>
                     </tr>
+                    <td class="table-title" colspan="2" style="padding: 5px; background-color: #00a2c26e; font-size: 16px;">Asking Connection Details</td>
                     <tr>
                         <td>Thank you for your inquiry! Please inbox your SLT Telephone number to analyse your concern.
                         </td>
@@ -149,20 +176,67 @@
                     </tr>
                 </thead>
                 <tbody>
+                    <td class="table-title" colspan="2" style="padding: 5px; background-color: #00a2c26e; font-size: 16px;">Requesting New Connections</td>
                     <tr>
-                        <td>Thank you for your interest in SLT products and services. Please inbox your contact number
+                        <td>Thank you for your interest in SLT products and services. <br>Please inbox your contact
+                            number
                             and address of the location to which you need the service. We will connect you with our team
-                            in that area.
+                            in your area.
                         </td>
-                        <td>ශ්‍රී ලංකා ටෙලිකොම් නිපැයුම් සහ සේවාවන් කෙරෙහි දක්වන ඔබේ උනන්දුවට ස්තූතියි. කරුණාකර ඔබට
+                        <td>ශ්‍රී ලංකා ටෙලිකොම් නිපැයුම් සහ සේවාවන් කෙරෙහි දක්වන ඔබේ උනන්දුවට ස්තූතියි. <br>කරුණාකර ඔබට
                             අවශ්‍ය සේවාව ලබා ගත යුතු ලිපිනය සහ ඔබගේ දුරකථන අංකය අප වෙත inbox කරන්න. අපි එය ඔබේ ප්‍රදේශය
                             භාර කණ්ඩායම වෙත යොමු කරන්නම්.
+                        </td>
+                    </tr>
+                    <td class="table-title" colspan="2" style="padding: 5px; background-color: #00a2c26e; font-size: 16px;">New Connection Charges</td>
+                    <tr>
+                        <td>Thank you for your interest in SLT products and services. <br>Please visit
+                            "https://www.slt.lk/en/personal/broadband/ftth/new-connection-charges" for SLT Fiber new
+                            connection details.
+                        </td>
+                        <td>ශ්‍රී ලංකා ටෙලිකොම් නිපැයුම් සහ සේවාවන් කෙරෙහි දක්වන ඔබේ උනන්දුවට ස්තූතියි.<br> SLT Fiber නව
+                            සබදතා පිලිබඳ තොරතුරු ලබා ගැනීම සඳහා කරුණාකර
+                            "https://www.slt.lk/en/personal/broadband/ftth/new-connection-charges" වෙත පිවිසෙන්න.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Thank you for your interest in SLT products and services.<br> Please visit
+                            "https://www.slt.lk/en/personal/broadband/lte/new-connection-charges" for SLT 4G new
+                            connection details.
+                        </td>
+                        <td>ශ්‍රී ලංකා ටෙලිකොම් නිපැයුම් සහ සේවාවන් කෙරෙහි දක්වන ඔබේ උනන්දුවට ස්තූතියි.<br> SLT 4G නව
+                            සබදතා පිලිබඳ තොරතුරු ලබා ගැනීම සඳහා කරුණාකර
+                            "https://www.slt.lk/en/personal/broadband/lte/new-connection-charges" වෙත පිවිසෙන්න.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Thank you for your interest in SLT products and services. <br>Please visit
+                            "https://www.slt.lk/index.php/en/personal/broadband/new-connections/megaline" for SLT
+                            Megaline new
+                            connection details.
+                        </td>
+                        <td>ශ්‍රී ලංකා ටෙලිකොම් නිපැයුම් සහ සේවාවන් කෙරෙහි දක්වන ඔබේ උනන්දුවට ස්තූතියි.<br> SLT Megaline
+                            නව
+                            සබදතා පිලිබඳ තොරතුරු ලබා ගැනීම සඳහා කරුණාකර
+                            "https://www.slt.lk/index.php/en/personal/broadband/new-connections/megaline" වෙත පිවිසෙන්න.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Thank you for your interest in SLT products and services. <br>Please visit
+                            "https://www.slt.lk/en/personal/peo-tv/peocharges" for SLT
+                            PEO TV new
+                            connection details.
+                        </td>
+                        <td>ශ්‍රී ලංකා ටෙලිකොම් නිපැයුම් සහ සේවාවන් කෙරෙහි දක්වන ඔබේ උනන්දුවට ස්තූතියි.<br> SLT PEO TV
+                            නව
+                            සබදතා පිලිබඳ තොරතුරු ලබා ගැනීම සඳහා කරුණාකර
+                            "https://www.slt.lk/en/personal/peo-tv/peocharges" වෙත පිවිසෙන්න.
                         </td>
                     </tr>
                 </tbody>
             </table>
 
-            <table class="table table-bordered table-settings" id="tblFault">
+            <table class="table table-bordered table-settings" id="tblFaults">
                 <thead>
                     <tr>
                         <th scope="col">English</th>
@@ -170,6 +244,7 @@
                     </tr>
                 </thead>
                 <tbody>
+                    <td class="table-title" colspan="2" style="padding: 5px; background-color: #00a2c26e; font-size: 16px;">Fault Reporting</td>
                     <tr>
                         <td>We apologies for the inconvenience caused! Your complain is reported under reference number
                             ######. The issue will be rectified soon. Please bear with us.
@@ -197,12 +272,26 @@
                     </tr>
                 </thead>
                 <tbody>
+                    <td class="table-title" colspan="2" style="padding: 5px; background-color: #00a2c26e; font-size: 16px;">Bill Outstanding</td>
                     <tr>
                         <td>Your total bill outstanding up to {Date} is Rs.#####. <br> You can check your bill
                             outstanding, payment details and pay online through MySLT mobile App and
                             "https://myslt.slt.lk" Web Portal.
                         </td>
                         <td>##### දින දක්වා ඔබගේ සම්පූර්ණ බිල්පත් ශේෂය රු.######## කි. <br> MySLT mobile App එක හෝ
+                            https://myslt.slt.lk/ Web Portal එක භාවිතා කර ඔබට බිල්පත් ශේෂය වැනි තොරතුරු පරීක්ෂා කල හැකි
+                            අතර online බිල්පත් ගෙවීම්ද පහසුවෙන් සිදු කල හැක.
+                        </td>
+                    </tr>
+                    <td class="table-title" colspan="2" style="padding: 5px; background-color: #00a2c26e; font-size: 16px;">Minimum Payment After Disconnection</td>
+                    <tr>
+                        <td>Your connection has been temporally disconnected due to the total bill outstanding of
+                            Rs.####. By paying the total outstanding your connection can be reconnected.
+                            <br>Furthermore, you can check your bill outstanding, payment details and pay online through
+                            MySLT mobile App and "https://myslt.slt.lk" Web Portal.
+                        </td>
+                        <td>ඔබගේ සබඳතාවය මේ වන විට තාවකාලිකව විසන්දි කර ඇත. ඔබගේ බිල්පත් ශේෂය රු.### කි. එම මුදල ගෙවා
+                            සබඳතාවය නැවත සක්‍රීය කර ගත හැක. <br>තවද MySLT mobile App එක හෝ
                             https://myslt.slt.lk/ Web Portal එක භාවිතා කර ඔබට බිල්පත් ශේෂය වැනි තොරතුරු පරීක්ෂා කල හැකි
                             අතර online බිල්පත් ගෙවීම්ද පහසුවෙන් සිදු කල හැක.
                         </td>
@@ -230,6 +319,7 @@
                     </tr>
                 </thead>
                 <tbody>
+                    <td class="table-title" colspan="2" style="padding: 5px; background-color: #00a2c26e; font-size: 16px;">Broadband Packages</td>
                     <tr>
                         <td>Thank you for your interest in SLT products and services. You can get all SLT Broadband
                             package details through "https://www.slt.lk/broadband/packages".
@@ -239,12 +329,14 @@
                             හැක.
                         </td>
                     </tr>
+                    <td class="table-title" colspan="2" style="padding: 5px; background-color: #00a2c26e; font-size: 16px;">PEO TV Packages</td>
                     <tr>
                         <td>Thank you for your interest in SLT products and services. You can get all SLT PEO TV package
-                            details through "https://www.peotv.com/packages".
+                            details through "https://www.slt.lk/en/personal/peo-tv/packages-and-charges".
                         </td>
                         <td>ශ්‍රී ලංකා ටෙලිකොම් නිපැයුම් සහ සේවාවන් කෙරෙහි ඔබ දක්වන උනන්දුව අප අගය කරන්නෙමු. SLT PEO TV
-                            පැකේජ සම්බන්ද සියලු තොරතුරු "https://www.peotv.com/packages" මගින් ලගා ගත හැක.
+                            පැකේජ සම්බන්ද සියලු තොරතුරු "https://www.slt.lk/en/personal/peo-tv/packages-and-charges"
+                            මගින් ලගා ගත හැක.
                         </td>
                     </tr>
                 </tbody>
@@ -258,23 +350,53 @@
                     </tr>
                 </thead>
                 <tbody>
+                    <td class="table-title" colspan="2" style="padding: 5px; background-color: #00a2c26e; font-size: 16px;">Broadband Package Change</td>
                     <tr>
                         <td>You can upgrade or downgrade your Broadband package by yourself through
                             "https://myslt.slt.lk"
                             Online portal or MySLT mobile App. <br>
-                            Please inbox the following details if you want to get it done by us. <br>
+                            Please inbox us the following details if you want to get it done by us. <br><br>
                             1) Broadband Username/SLT Telephone number. <br>
                             2) SLT Account number. <br>
                             3) NIC Number of the SLT Account holder. <br>
-                            4) New package name which you want to get. <br>
+                            4) New package name which you want to get.<br><br>
+                            For Broadband package downgrades Rs.250/- one time charge will be added as the package
+                            downgrade
+                            fee and the package downgrade will be completed on the 1st day of your upcoming billing
+                            cycle. (Not
+                            applicable for package upgrades).
                         </td>
                         <td>ඔබගේ Broadband පැකේජය "https://myslt.slt.lk" Online portal එක හරහා ඔබටම වෙනස් කර ගත හැක.
                             <br>
-                            එය ඔබ හට කිරීමට අපහසුනම් ඒ සඳහා සහය වීම සඳහා පහත තොරතුරු අප වෙත inbox කරන්න. <br>
+                            එය ඔබ හට කිරීමට අපහසුනම් ඒ සඳහා සහය වීම සඳහා පහත තොරතුරු අප වෙත inbox කරන්න. <br><br>
                             1) Broadband Username එක/SLT දුරකතන අංකය. <br>
                             2) SLT ගිණුම් අංකය. <br>
                             3) සබදතාවය හිමිකරුගේ ජාතික හැඳුනුම්පත් අංකය. <br>
-                            4) ඔබට අවශ්‍ය නව පැකේජය. <br>
+                            4) ඔබට අවශ්‍ය නව පැකේජය.<br><br>
+                            Broadband Package Downgrade කිරීම සඳහා රු.250/- ක මුදලක් Package Downgrade Fee එක ලෙස ඔබගේ
+                            බිල්පතට අය
+                            වන අතර පැකේජය Downgrade වීම සිදු වන්නේ ඔබගේ ඊලඟ Billing Cycle එක ආරම්භ වන දිනයේදී වේ.
+                            (Package Upgrades සඳහා මෙම කොන්දේසිය අදාල නොවේ).
+                        </td>
+                    </tr>
+                    <td class="table-title" colspan="2" style="padding: 5px; background-color: #00a2c26e; font-size: 16px;">PEO TV Package Change</td>
+                    <tr>
+                        <td>Please inbox us the following details to change your PEO TV package by us.<br><br>
+                            1) SLT Telephone number. <br>
+                            2) SLT Account number. <br>
+                            3) NIC Number of the SLT Account holder. <br>
+                            4) New package name which you want to get.<br><br>
+                            For the package downgrades Rs.500/- one time charge will be added to the bill as the package
+                            downgrade
+                            fee. (There is no any additional charge for PEO TV package upgrades).
+                        </td>
+                        <td>ඔබගේ PEO TV පැකේජය මාරු කර දීම සඳහා කරුණාකර පහත තොරතුරු අප වෙත inbox කරන්න. <br><br>
+                            1) Broadband Username එක/SLT දුරකතන අංකය. <br>
+                            2) SLT ගිණුම් අංකය. <br>
+                            3) සබදතාවය හිමිකරුගේ ජාතික හැඳුනුම්පත් අංකය. <br>
+                            4) ඔබට අවශ්‍ය නව පැකේජය.<br><br>
+                            PEO TV Package Downgrade කිරීම සඳහා රු.500/- ක මුදලක් Package Downgrade Fee එක ලෙස ඔබගේ
+                            බිල්පතට එකතු වේ. (Package Upgrades සඳහා මෙම කොන්දේසිය අදාල නොවේ).
                         </td>
                     </tr>
                 </tbody>
@@ -288,6 +410,7 @@
                     </tr>
                 </thead>
                 <tbody>
+                    <td class="table-title" colspan="2" style="padding: 5px; background-color: #00a2c26e; font-size: 16px;">Vacancies on Website</td>
                     <tr>
                         <td>Thank you for your interest in SLT. We publish available job vacancies on
                             "https://www.slt.lk/careers". Stay in touch!
@@ -307,6 +430,7 @@
                     </tr>
                 </thead>
                 <tbody>
+                    <td class="table-title" colspan="2" style="padding: 5px; background-color: #00a2c26e; font-size: 16px;">Feedbacks</td>
                     <tr>
                         <td>Just wanted to make sure, you were taken care on your inquiry on (#Date#).
                         </td>
@@ -338,6 +462,7 @@
                     </tr>
                 </thead>
                 <tbody>
+                    <td class="table-title" colspan="2" style="padding: 5px; background-color: #00a2c26e; font-size: 16px;">eTeleshop</td>
                     <tr>
                         <td>You can purchase SLT products and instruments online thourgh SLT eTeleshop. Kindly please
                             visit https://eteleshop.slt.lk link to checkout new updates on SLT eTeleshop.
@@ -348,7 +473,7 @@
                 </tbody>
             </table>
 
-            <table class="table table-bordered table-settings" id="tblSs">
+            <table class="table table-bordered table-settings" id="tblSelfService">
                 <thead>
                     <tr>
                         <th scope="col">English</th>
@@ -356,14 +481,15 @@
                     </tr>
                 </thead>
                 <tbody>
+                    <td class="table-title" colspan="2" style="padding: 5px; background-color: #00a2c26e; font-size: 16px;">Online Bill View</td>
                     <tr>
                         <td>You can easily view your previous SLT Bills online through https://billonline.slt.lk online
                             portal.
                         </td>
-                        <td>SLT eTeleshop හරහා ඔබට අපගේ සේවා සහ උපකරණ online මිලදී ගත හැක. SLT eTeleshop වෙත පිවිසීම
-                            සඳහා කරුණාකර https://eteleshop.slt.lk වෙත පිවිසෙන්න.
+                        <td>ඔබට ඔබගේ මාසික SLT බිල්පත් https://billonline.slt.lk online portal එක හරහා පරීක්ෂා කල හැක.
                         </td>
                     </tr>
+                    <td class="table-title" colspan="2" style="padding: 5px; background-color: #00a2c26e; font-size: 16px;">Online Bill Payment</td>
                     <tr>
                         <td>Kinldy please visit https://billpay.slt.lk online portal or use MySLT mobile App to pay your
                             SLT bills instantly.
@@ -372,6 +498,7 @@
                             බිල්පත් සඳහා ඉතා ඉක්මණින් සහ පහසුවෙන් ගෙවීම් සිදු කල හැක.
                         </td>
                     </tr>
+                    <td class="table-title" colspan="2" style="padding: 5px; background-color: #00a2c26e; font-size: 16px;">Website Promote</td>
                     <tr>
                         <td>New updates and the offers are always published on our corporate website and through
                             official Social Media pages. Kindly please visit https://www.slt.lk to login to our website.
@@ -391,38 +518,44 @@
                     </tr>
                 </thead>
                 <tbody>
+                    <td class="table-title" colspan="2" style="padding: 5px; background-color: #00a2c26e; font-size: 16px;">Extra GB</td>
                     <tr>
                         <td>You can check your Data Balance and purchase Extra GB by using any of the following path.
-                            <br>
+                            <br><br>
                             1) MySLT mobile App. <br>
                             2) https://myslt.slt.lk Web Portal. <br>
+                            3) 0112121212 Automated Number.
                         </td>
                         <td>පහත සඳහන් ඕනෑම ක්‍රමයක් භාවිතා කර ඔබට ඔබගේ Data Balance එක පරීක්ෂා කිරීම සහ අවශ්‍ය
-                            අවස්තාවකදී Extra GB මිලදී ගැනීම සිදු කල හැක. <br>
+                            අවස්තාවකදී Extra GB මිලදී ගැනීම සිදු කල හැක. <br><br>
                             1) MySLT mobile App එක. <br>
                             2) https://myslt.slt.lk Web Portal එක. <br>
+                            3) 0112121212 ස්වයංක්‍රීය අංකය.
                         </td>
                     </tr>
+                    <td class="table-title" colspan="2" style="padding: 5px; background-color: #00a2c26e; font-size: 16px;">Youth Data Add-on</td>
                     <tr>
                         <td>Please visit https://www.slt.lk/broadband/data-addons/7xfun for more details about Meet data
                             ad-ons. It includes WhatsApp, Viber, Imo, YouTube, TikTok, Instagram, Facebook and Messenger
                             platforms.
                         </td>
-                        <td>Youth Data Add-on සම්බන්ද තොරතුරු ලබා ගැනීම සඳහා කරුණාකර
+                        <td>Youth Data Add-on එක සම්බන්ද තොරතුරු ලබා ගැනීම සඳහා කරුණාකර
                             https://www.slt.lk/broadband/data-addons/7xfun වෙත පිවිසෙන්න. මේ හරහා WhatsApp, Viber, Imo,
                             YouTube, TikTok, Instagram, Facebook සහ Messenger භාවිතා කල හැක.
                         </td>
                     </tr>
+                    <td class="table-title" colspan="2" style="padding: 5px; background-color: #00a2c26e; font-size: 16px;">Meet Data Add-on</td>
                     <tr>
-                        <td>Please visit https://www.slt.lk/broadband/data-addons/meet for more details about Meet data
-                            ad-ons. It includes SLT Lynked, Microsoft Teams, Google Meet, Office 365, Zoom, Webex and
+                        <td>Please visit https://www.slt.lk/broadband/data-addons/meet for more details about Meet Data
+                            Add-ons. It includes SLT Lynked, Microsoft Teams, Google Meet, Office 365, Zoom, Webex and
                             Skype platforms.
                         </td>
-                        <td>Meet Data Add-on සම්බන්ද තොරතුරු ලබා ගැනීම සඳහා කරුණාකර
+                        <td>Meet Data Add-on එක සම්බන්ද තොරතුරු ලබා ගැනීම සඳහා කරුණාකර
                             https://www.slt.lk/broadband/data-addons/meet වෙත පිවිසෙන්න. මේ හරහා SLT Lynked, Microsoft
                             Teams, Google Meet, Office 365, Zoom, Webex සහ Skype භාවිතා කල හැක.
                         </td>
                     </tr>
+                    <td class="table-title" colspan="2" style="padding: 5px; background-color: #00a2c26e; font-size: 16px;">Gaming Data Add-on</td>
                     <tr>
                         <td>Please visit https://www.slt.lk/broadband/data-addons/gaming for more details about Gaming
                             Data Add-ons.
@@ -431,6 +564,7 @@
                             https://www.slt.lk/broadband/data-addons/gaming වෙත පිවිසෙන්න.
                         </td>
                     </tr>
+                    <td class="table-title" colspan="2" style="padding: 5px; background-color: #00a2c26e; font-size: 16px;">YouTube Data Add-on</td>
                     <tr>
                         <td>Please visit https://www.slt.lk/broadband/data-addons/youtube for more details about YouTube
                             Data Add-on.
@@ -439,18 +573,20 @@
                             https://www.slt.lk/broadband/data-addons/youtube වෙත පිවිසෙන්න.
                         </td>
                     </tr>
+                    <td class="table-title" colspan="2" style="padding: 5px; background-color: #00a2c26e; font-size: 16px;">Messenger Data Add-on</td>
                     <tr>
                         <td>Please visit https://www.slt.lk/broadband/data-addons/messenger for more details about our
                             Messenger Data Add-on. It includes Facebook Messennger, WhatsApp, Viber and Imo platforms.
                         </td>
                         <td>Messenger Data Add-on එක සම්බන්ද තොරතුරු පරීක්ෂා කිරීම සඳහා
                             https://www.slt.lk/broadband/data-addons/messenger වෙත පිවිසෙන්න.
-
                         </td>
                     </tr>
+                    <td class="table-title" colspan="2" style="padding: 5px; background-color: #00a2c26e; font-size: 16px;">Unlimited Entertainment Data Add-on</td>
                     <tr>
                         <td>Please visit https://www.slt.lk/broadband/data-addons/entertainment for more details about
-                            Unlimited Entertainment data ad-on. It includes Netflix, Amazon Prime, Apple TV+, PEO TV Go,
+                            Unlimited Entertainment Data Add-on. It includes Netflix, Amazon Prime, Apple TV+, PEO TV
+                            Go,
                             Fire TV, Hulu, Roku TV, SRIFlix and Spotify platforms.
                         </td>
                         <td>Unlimited Entertainment Data Add-on එක සම්බන්ද සියලු තොරතුරු ලබා ගැනීම සඳහා කරුණාකර
@@ -462,8 +598,7 @@
                 </tbody>
             </table>
 
-
-            <table class="table table-bordered table-settings" id="tblNc">
+            <table class="table table-bordered table-settings" id="tblOther">
                 <thead>
                     <tr>
                         <th scope="col">English</th>
@@ -471,14 +606,26 @@
                     </tr>
                 </thead>
                 <tbody>
+                    <td class="table-title" colspan="2" style="padding: 5px; background-color: #00a2c26e; font-size: 16px;">Others</td>
                     <tr>
-                        <td>Other
+                        <td> Sample answers beyond the above categories will be updated here soon. Please contact the
+                            developer for new suggestions.
                         </td>
-                        <td>Other
+                        <td> Sample answers beyond the above categories will be updated here soon. Please contact the
+                            developer for new suggestions.
                         </td>
                     </tr>
+
                 </tbody>
             </table>
+            <div class="notes">
+                <h3 class="note-title">Notes :</h3>
+                <ul class="note-menu">
+                    <li>You can use the sample answers to reply customer inquiries more efficiently.</li>
+                    <li>Feel free to edit any answer to make it suitable to the relevant customer inquiry.</li>
+                    <li>This website is developed for internal use only. Do not share this with external parties.</li>
+                </ul>
+            </div>
         </div>
     </section>
     <!-- Answer Section End -->
@@ -496,7 +643,9 @@
 
 
     <!-- JavaScript Linked -->
-    <script src="assets/js/script.js"></script>
+    <script type="text/javascript" src="assets/js/script-srm.js">
+
+    </script>
 
 </body>
 
