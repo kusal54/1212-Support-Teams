@@ -295,6 +295,10 @@ body {
         width: 80%;
     }
 
+    .table-settings tbody {
+        font-size: 14px;
+    }
+
 }
 
 

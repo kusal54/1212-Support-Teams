@@ -194,6 +194,7 @@ body {
 /*----------- Answer Section Start -----------*/
 .table {
     padding: 30px 0;
+    width: 100%;
 }
 
 .table-settings thead {
@@ -297,6 +298,11 @@ body {
 
     .answer-wrapper {
         width: 80%;
+        margin: auto;
+    }
+
+    .table-settings tbody {
+        font-size: 14px;
     }
 }
 
