@@ -8,8 +8,8 @@ document.getElementById('hamburgerMenu').onclick = function(){
     document.getElementById('channel-section').style.display = "none";
     document.getElementById('footer-section').style.display = "none";
     document.getElementById('teamSection').style.display = "none";
-    document.getElementById('targetsection').style.display = "none";
-    document.getElementById('answersection').style.display = "none";
+    document.getElementById('targetSection').style.display = "none";
+    document.getElementById('answerSection').style.display = "none";
 }
 
 document.getElementById('mobileCloseBtn').onclick = function(){
@@ -20,8 +20,8 @@ document.getElementById('mobileCloseBtn').onclick = function(){
     document.getElementById('channel-section').style.display = "inherit";
     document.getElementById('footer-section').style.display = "inherit";
     document.getElementById('teamSection').style.display = "inherit";
-    document.getElementById('targetsection').style.display = "inherit";
-    document.getElementById('answersection').style.display = "inherit";
+    document.getElementById('targetSection').style.display = "inherit";
+    document.getElementById('answerSection').style.display = "inherit";
 }
 
 

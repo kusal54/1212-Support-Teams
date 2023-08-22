@@ -252,6 +252,10 @@ body {
     #hamMenu{
         flex-direction: column;
     }
+    
+    .team-title {
+        padding-top: 30px;
+    }
 
 }
 
