@@ -78,7 +78,7 @@ body {
 
 
 /*----------- Mobile Nav Section Start -----------*/
-#mobileNav{
+#mobileNav {
     width: 100%;
     background-color: #00a2c2;
     height: 60px;
@@ -87,30 +87,30 @@ body {
     z-index: 999;
 }
 
-.mobile-nav-wrapper{
+.mobile-nav-wrapper {
     width: 80%;
     margin: auto;
 }
 
-.mobile-nav-menu{
+.mobile-nav-menu {
     display: flex;
     justify-content: space-between;
     margin: auto;
 }
 
-.mobile-nav-menu li{
+.mobile-nav-menu li {
     list-style-type: none;
 }
 
-.mobile-nav-menu li i{
+.mobile-nav-menu li i {
     font-size: 40px;
 }
 
-#mobileCloseBtn{
+#mobileCloseBtn {
     display: none;
 }
 
-#hamMenu{
+#hamMenu {
     display: none;
     width: 100%;
     height: 100vh;
@@ -118,14 +118,14 @@ body {
     margin-top: -60px;
 }
 
-.ham-wrapper{
+.ham-wrapper {
     width: 80%;
     margin: auto;
     height: 80%;
     display: flex;
 }
 
-.ham-menu{
+.ham-menu {
     display: flex;
     flex-direction: column;
     margin: auto;
@@ -133,7 +133,7 @@ body {
 
 }
 
-.ham-menu li{
+.ham-menu li {
     list-style-type: none;
     width: 100%;
     text-align: center;
@@ -141,7 +141,7 @@ body {
     border-bottom: 1px solid #ffffff;
 }
 
-.ham-menu li a{
+.ham-menu li a {
     text-decoration: none;
     color: #ffffff;
     text-transform: uppercase;
@@ -149,7 +149,7 @@ body {
     font-weight: 500;
 }
 
-.ham-menu li a:hover{
+.ham-menu li a:hover {
     font-weight: 600;
 }
 
@@ -238,6 +238,7 @@ body {
 #footer-section {
     background-color: #001b20;
     height: 40px;
+    display: flex;
 }
 
 .footer-wrapper {
@@ -255,7 +256,7 @@ body {
     margin: 0;
 }
 
-.footer-details-nav{
+.footer-details-nav {
     text-align: center;
     color: #ffffffb4;
     margin: auto;
@@ -278,16 +279,69 @@ body {
         line-height: 30px;
     }
 
-    #mobileNav{
+    #mobileNav {
         display: flex;
     }
 
-    #hamMenu{
+    #hamMenu {
         flex-direction: column;
     }
 
+    .hero-title {
+        color: #ffffff;
+    }
+
+    #channel-section {
+        height: auto;
+    }
+    
+    .channel-wrapper {
+        width: 80%;
+        margin: auto;
+        height: auto;
+    }
+    
+    .social-wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .social-name {
+        font-size: 14px;
+        font-weight: 600;
+        text-transform: capitalize;
+    }
+    
+    .social-icons a {
+        text-decoration: none;
+        padding: 5px;
+        font-size: 20px;
+    }
+    
+    .follower-count {
+        font-size: 12px;
+        text-align: center;
+    }
 
 }
 
-
 /*----------- Tab and Mobile View End -----------*/
+
+
+/*----------- Mobile and Mobile View Start -----------*/
+
+@media only screen and (max-width: 600px) {
+    #footer-section {
+        height: 60px;
+    }
+
+
+    .footer-details {
+        font-size: 10px;
+        color: #ffffffb4;
+        margin: 0;
+        width: 50%;
+    }
+}
+
+/*----------- Mobile and Mobile View End -----------*/

@@ -160,3 +160,24 @@ body {
 /*----------- Footer Section Start -----------*/
 
 /*------------------- Main Section End -------------------*/
+
+
+
+/*----------- Mobile and Mobile View Start -----------*/
+
+
+@media only screen and (max-width: 600px) {
+    #footer-section {
+        height: 60px;
+    }
+    
+    
+    .footer-details {
+        font-size: 10px;
+
+        width: 50%;
+    }
+}
+
+
+/*----------- Mobile and Mobile View End -----------*/

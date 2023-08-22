@@ -184,6 +184,7 @@ body {
     letter-spacing: 2px;
 }
 
+
 /*----------- Hero Section Start -----------*/
 
 
@@ -191,10 +192,11 @@ body {
 #footer-section {
     background-color: #001b20;
     height: 40px;
+    display: flex;
 }
 
 .footer-wrapper {
-    width: 80%;
+    width: 60%;
     margin: auto;
     display: flex;
     justify-content: space-between;
@@ -203,15 +205,21 @@ body {
 }
 
 .footer-details {
-    font-size: 12px;
+    font-size: 14px;
     color: #ffffffb4;
     margin: 0;
 }
 
-/*----------- Footer Section Start -----------*/
+.footer-details-nav{
+    text-align: center;
+    color: #ffffffb4;
+    margin: auto;
+    font-size: 14px;
+    padding-top: 10px;
+}
 
 
-/*----------- Tab and Mobile View Start -----------*/
+/*----------- Footer Section End -----------*/
 
 
 @media only screen and (max-width: 768px) {
@@ -232,7 +240,32 @@ body {
         flex-direction: column;
     }
 
+    .answer-wrapper {
+        width: 80%;
+    }
+
+}
+
+/*----------- Tab and Mobile View End -----------*/
+
+
+
+/*----------- Mobile and Mobile View Start -----------*/
+
+
+@media only screen and (max-width: 600px) {
+    #footer-section {
+        height: 60px;
+    }
+    
+    
+    .footer-details {
+        font-size: 10px;
+        color: #ffffffb4;
+        margin: 0;
+        width: 50%;
+    }
 }
 
 
-/*----------- Tab and Mobile View End -----------*/
+/*----------- Mobile and Mobile View End -----------*/

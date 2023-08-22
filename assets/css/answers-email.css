@@ -241,6 +241,7 @@ body {
 #footer-section {
     background-color: #001b20;
     height: 40px;
+    display: flex;
 }
 
 .footer-wrapper {
@@ -267,7 +268,7 @@ body {
 }
 
 
-/*----------- Footer Section Start -----------*/
+/*----------- Footer Section End -----------*/
 
 
 /*----------- Tab and Mobile View Start -----------*/
@@ -299,3 +300,23 @@ body {
 
 
 /*----------- Tab and Mobile View End -----------*/
+
+/*----------- Mobile and Mobile View Start -----------*/
+
+
+@media only screen and (max-width: 600px) {
+    #footer-section {
+        height: 60px;
+    }
+    
+    
+    .footer-details {
+        font-size: 10px;
+        color: #ffffffb4;
+        margin: 0;
+        width: 50%;
+    }
+}
+
+
+/*----------- Mobile and Mobile View End -----------*/
