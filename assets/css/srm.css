@@ -74,7 +74,86 @@ body {
 }
 
 
-/*----------- Nav Section Start -----------*/
+/*----------- Nav Section End -----------*/
+
+
+/*----------- Mobile Nav Section Start -----------*/
+#mobileNav{
+    width: 100%;
+    background-color: #00a2c2;
+    height: 60px;
+    display: none;
+    position: relative;
+    z-index: 999;
+}
+
+.mobile-nav-wrapper{
+    width: 80%;
+    margin: auto;
+}
+
+.mobile-nav-menu{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.mobile-nav-menu li{
+    list-style-type: none;
+}
+
+.mobile-nav-menu li i{
+    font-size: 40px;
+}
+
+#mobileCloseBtn{
+    display: none;
+}
+
+#hamMenu{
+    display: none;
+    width: 100%;
+    height: 100vh;
+    background-color: #01829c;
+    margin-top: -60px;
+}
+
+.ham-wrapper{
+    width: 80%;
+    margin: auto;
+    height: 80%;
+    display: flex;
+}
+
+.ham-menu{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding: 0;
+
+}
+
+.ham-menu li{
+    list-style-type: none;
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+    border-bottom: 1px solid #ffffff;
+}
+
+.ham-menu li a{
+    text-decoration: none;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.ham-menu li a:hover{
+    font-weight: 600;
+}
+
+/*----------- Mobile Nav Section End -----------*/
 
 
 /*----------- Hero Section Start -----------*/
@@ -113,7 +192,7 @@ body {
 /*----------- Channels Section Start -----------*/
 #channel-section {
     width: 100%;
-    height: 29vh;
+    height: 26vh;
     margin-top: 20px;
     margin-bottom: 20px;
 }
@@ -121,7 +200,7 @@ body {
 .channel-wrapper {
     width: 80%;
     margin: auto;
-    height: 29vh;
+    height: 26vh;
 }
 
 .social-wrapper {
@@ -152,14 +231,17 @@ body {
     text-align: center;
 }
 
-/*----------- Channels Section Start -----------*/
+.follower-count:hover {
+    font-weight: bold;
+}
+
+/*----------- Channels Section End -----------*/
 
 
 /*----------- Footer Section Start -----------*/
 #footer-section {
     background-color: #001b20;
     height: 40px;
-    display: flex;
 }
 
 .footer-wrapper {
@@ -177,36 +259,39 @@ body {
     margin: 0;
 }
 
+.footer-details-nav{
+    text-align: center;
+    color: #ffffffb4;
+    margin: auto;
+    font-size: 14px;
+    padding-top: 10px;
+}
+
 /*----------- Footer Section Start -----------*/
 
 
 /*----------- Tab and Mobile View Start -----------*/
 
-@media only screen and (max-width: 768px) {}
+@media only screen and (max-width: 768px) {
+    #navSection {
+        display: none;
+    }
+
+    .hero-title {
+        font-size: 30px;
+        line-height: 30px;
+    }
+
+    #mobileNav{
+        display: flex;
+    }
+
+    #hamMenu{
+        flex-direction: column;
+    }
+
+
+}
 
 
 /*----------- Tab and Mobile View End -----------*/
-
-
-/*----------- Mobile and Mobile View Start -----------*/
-
-@media only screen and (max-width: 600px) {
-    #footer-section {
-        height: 60px;
-    }
-
-
-    .footer-details {
-        font-size: 10px;
-        color: #ffffffb4;
-        margin: 0;
-        width: 50%;
-    }
-
-    .channel-wrapper {
-        width: 90%;
-        margin: auto;
-    }
-}
-
-/*----------- Mobile and Mobile View End -----------*/

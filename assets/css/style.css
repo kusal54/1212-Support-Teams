@@ -130,11 +130,7 @@ body {
     display: flex;
     justify-content: center;
     font-size: 14px;
-<<<<<<< HEAD
     color: #001b208a;
-=======
-    color: #001b2060;
->>>>>>> aff4f7d389ffdd56609415956736abce5dd1c41e
 }
 
 /*------------------- Main Section End -------------------*/
@@ -165,24 +161,3 @@ body {
 /*----------- Footer Section Start -----------*/
 
 /*------------------- Main Section End -------------------*/
-
-
-
-/*----------- Mobile and Mobile View Start -----------*/
-
-
-@media only screen and (max-width: 600px) {
-    #footer-section {
-        height: 60px;
-    }
-    
-    
-    .footer-details {
-        font-size: 10px;
-
-        width: 50%;
-    }
-}
-
-
-/*----------- Mobile and Mobile View End -----------*/

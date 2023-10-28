@@ -194,10 +194,6 @@ body {
 /*----------- Answer Section Start -----------*/
 .table {
     padding: 30px 0;
-<<<<<<< HEAD
-=======
-    width: 100%;
->>>>>>> aff4f7d389ffdd56609415956736abce5dd1c41e
 }
 
 .table-settings thead {
@@ -249,11 +245,7 @@ body {
 #footer-section {
     background-color: #001b20;
     height: 40px;
-<<<<<<< HEAD
     margin-bottom: 0;
-=======
-    display: flex;
->>>>>>> aff4f7d389ffdd56609415956736abce5dd1c41e
 }
 
 .footer-wrapper {
@@ -305,40 +297,8 @@ body {
 
     .answer-wrapper {
         width: 80%;
-<<<<<<< HEAD
-=======
-        margin: auto;
-    }
-
-    .table-settings thead {
-        font-size: 14px;
-    }
-
-    .table-settings tbody {
-        font-size: 14px;
->>>>>>> aff4f7d389ffdd56609415956736abce5dd1c41e
     }
 }
 
 
 /*----------- Tab and Mobile View End -----------*/
-
-/*----------- Mobile and Mobile View Start -----------*/
-
-
-@media only screen and (max-width: 600px) {
-    #footer-section {
-        height: 60px;
-    }
-    
-    
-    .footer-details {
-        font-size: 10px;
-        color: #ffffffb4;
-        margin: 0;
-        width: 50%;
-    }
-}
-
-
-/*----------- Mobile and Mobile View End -----------*/
