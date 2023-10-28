@@ -1,19 +1,34 @@
 // Mobile Nav Start//
+<<<<<<< HEAD
 document.getElementById('hamburgerMenu').onclick = function(){
     document.getElementById('mobileCloseBtn').style.display = "inline";
     document.getElementById('hamburgerMenu').style.display = "none";
     document.getElementById('hamMenu').style.display = "flex";
     document.getElementById('mobileNav').style.borderBottom = "#ffffff";
+=======
+document.getElementById('hamburgerMenu').onclick = function () {
+    document.getElementById('mobileCloseBtn').style.display = "inline";
+    document.getElementById('hamburgerMenu').style.display = "none";
+    document.getElementById('hamMenu').style.display = "flex";
+>>>>>>> aff4f7d389ffdd56609415956736abce5dd1c41e
     document.getElementById('hero-section').style.display = "none";
     document.getElementById('channel-section').style.display = "none";
     document.getElementById('footer-section').style.display = "none";
     document.getElementById('teamSection').style.display = "none";
+<<<<<<< HEAD
     document.getElementById('targetsection').style.display = "none";
     document.getElementById('answersection').style.display = "none";
     
 }
 
 document.getElementById('mobileCloseBtn').onclick = function(){
+=======
+    document.getElementById('targetSection').style.display = "none";
+    document.getElementById('answerSection').style.display = "none";
+}
+
+document.getElementById('mobileCloseBtn').onclick = function () {
+>>>>>>> aff4f7d389ffdd56609415956736abce5dd1c41e
     document.getElementById('mobileCloseBtn').style.display = "none";
     document.getElementById('hamburgerMenu').style.display = "inline";
     document.getElementById('hamMenu').style.display = "none";
@@ -21,8 +36,13 @@ document.getElementById('mobileCloseBtn').onclick = function(){
     document.getElementById('channel-section').style.display = "inherit";
     document.getElementById('footer-section').style.display = "inherit";
     document.getElementById('teamSection').style.display = "inherit";
+<<<<<<< HEAD
     document.getElementById('targetsection').style.display = "inherit";
     document.getElementById('answersection').style.display = "inherit";
+=======
+    document.getElementById('targetSection').style.display = "inherit";
+    document.getElementById('answerSection').style.display = "inherit";
+>>>>>>> aff4f7d389ffdd56609415956736abce5dd1c41e
 }
 
 

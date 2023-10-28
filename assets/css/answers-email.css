@@ -72,9 +72,6 @@ body {
     font-weight: 550;
 }
 
-
-/*----------- Nav Section End -----------*/
-
 /*----------- Mobile Nav Section Start -----------*/
 #mobileNav{
     width: 100%;
@@ -90,6 +87,24 @@ body {
     margin: auto;
 }
 
+<<<<<<< HEAD
+/*----------- Mobile Nav Section Start -----------*/
+#mobileNav{
+    width: 100%;
+    background-color: #00a2c2;
+    height: 60px;
+    display: none;
+    position: relative;
+    z-index: 999;
+}
+
+.mobile-nav-wrapper{
+    width: 80%;
+    margin: auto;
+}
+
+=======
+>>>>>>> aff4f7d389ffdd56609415956736abce5dd1c41e
 .mobile-nav-menu{
     display: flex;
     justify-content: space-between;
@@ -244,6 +259,7 @@ body {
 #footer-section {
     background-color: #001b20;
     height: 40px;
+    display: flex;
 }
 
 .footer-wrapper {
@@ -270,7 +286,11 @@ body {
 }
 
 
+<<<<<<< HEAD
 /*----------- Footer Section Start -----------*/
+=======
+/*----------- Footer Section End -----------*/
+>>>>>>> aff4f7d389ffdd56609415956736abce5dd1c41e
 
 
 /*----------- Tab and Mobile View Start -----------*/
@@ -297,8 +317,41 @@ body {
         width: 80%;
     }
 
+<<<<<<< HEAD
 }
+
+=======
+    .table-settings thead {
+        font-size: 14px;
+    }
+
+    .table-settings tbody {
+        font-size: 14px;
+    }
+
+}
+>>>>>>> aff4f7d389ffdd56609415956736abce5dd1c41e
 
 
 
 /*----------- Tab and Mobile View End -----------*/
+
+/*----------- Mobile and Mobile View Start -----------*/
+
+
+@media only screen and (max-width: 600px) {
+    #footer-section {
+        height: 60px;
+    }
+    
+    
+    .footer-details {
+        font-size: 10px;
+        color: #ffffffb4;
+        margin: 0;
+        width: 50%;
+    }
+}
+
+
+/*----------- Mobile and Mobile View End -----------*/
