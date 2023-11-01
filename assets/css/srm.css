@@ -290,7 +290,11 @@ body {
         flex-direction: column;
     }
 
-
+    .social-wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
 }
 
 
