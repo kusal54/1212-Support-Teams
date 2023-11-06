@@ -295,6 +295,10 @@ body {
         flex-direction: column;
         justify-content: space-between;
     }
+
+    #channel-section{
+        height: 900px;
+    }
 }
 
 
