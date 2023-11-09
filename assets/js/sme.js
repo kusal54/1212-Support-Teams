@@ -12,4 +12,123 @@ document.getElementById('mobileCloseBtn').onclick = function () {
     document.getElementById('hamMenu').style.display = "none";
 }
 
-// Sample Answers //
+// Products //
+
+document.getElementById('dataOne').onclick = function () {
+    document.getElementById('dataOneSec').style.display = "inline";
+    document.getElementById('voBoxSec').style.display = "none";
+    document.getElementById('sltUnivoSec').style.display = "none";
+    document.getElementById('msmESec').style.display = "none";
+    document.getElementById('hostingCubSec').style.display = "none";
+    document.getElementById('peotvBizSec').style.display = "none";
+    document.getElementById('bizTunesSec').style.display = "none";
+    document.getElementById('lteFlashSec').style.display = "none";
+    document.getElementById('cloudPos').style.display = "none";
+    document.getElementById('notUpdated').style.display = "none";
+}
+
+document.getElementById('voBox').onclick = function () {
+    document.getElementById('voBoxSec').style.display = "inline";
+    document.getElementById('notUpdated').style.display = "none";
+    document.getElementById('dataOneSec').style.display = "none";
+    document.getElementById('sltUnivoSec').style.display = "none";
+    document.getElementById('msmESec').style.display = "none";
+    document.getElementById('hostingCubSec').style.display = "none";
+    document.getElementById('peotvBizSec').style.display = "none";
+    document.getElementById('bizTunesSec').style.display = "none";
+    document.getElementById('lteFlashSec').style.display = "none";
+    document.getElementById('cloudPos').style.display = "none";
+}
+
+document.getElementById('hostingCub').onclick = function () {
+    document.getElementById('hostingCubSec').style.display = "inline";
+    document.getElementById('voBoxSec').style.display = "none";
+    document.getElementById('notUpdated').style.display = "none";
+    document.getElementById('dataOneSec').style.display = "none";
+    document.getElementById('sltUnivoSec').style.display = "none";
+    document.getElementById('msmESec').style.display = "none";
+    document.getElementById('peotvBizSec').style.display = "none";
+    document.getElementById('bizTunesSec').style.display = "none";
+    document.getElementById('lteFlashSec').style.display = "none";
+    document.getElementById('cloudPos').style.display = "none";
+}
+
+document.getElementById('msmE').onclick = function () {
+    document.getElementById('notUpdated').style.display = "inline";
+    document.getElementById('voBoxSec').style.display = "none";
+    document.getElementById('dataOneSec').style.display = "none";
+    document.getElementById('sltUnivoSec').style.display = "none";
+    document.getElementById('msmESec').style.display = "none";
+    document.getElementById('hostingCubSec').style.display = "none";
+    document.getElementById('peotvBizSec').style.display = "none";
+    document.getElementById('bizTunesSec').style.display = "none";
+    document.getElementById('lteFlashSec').style.display = "none";
+    document.getElementById('cloudPos').style.display = "none";
+}
+
+document.getElementById('cloudPos').onclick = function () {
+    document.getElementById('notUpdated').style.display = "inline";
+    document.getElementById('voBoxSec').style.display = "none";
+    document.getElementById('dataOneSec').style.display = "none";
+    document.getElementById('sltUnivoSec').style.display = "none";
+    document.getElementById('msmESec').style.display = "none";
+    document.getElementById('hostingCubSec').style.display = "none";
+    document.getElementById('peotvBizSec').style.display = "none";
+    document.getElementById('bizTunesSec').style.display = "none";
+    document.getElementById('lteFlashSec').style.display = "none";
+    document.getElementById('cloudPos').style.display = "none";
+}
+
+document.getElementById('peotvBiz').onclick = function () {
+    document.getElementById('notUpdated').style.display = "inline";
+    document.getElementById('voBoxSec').style.display = "none";
+    document.getElementById('dataOneSec').style.display = "none";
+    document.getElementById('sltUnivoSec').style.display = "none";
+    document.getElementById('msmESec').style.display = "none";
+    document.getElementById('hostingCubSec').style.display = "none";
+    document.getElementById('peotvBizSec').style.display = "none";
+    document.getElementById('bizTunesSec').style.display = "none";
+    document.getElementById('lteFlashSec').style.display = "none";
+    document.getElementById('peotvBiz').style.display = "none";
+}
+
+document.getElementById('sltUnivo').onclick = function () {
+    document.getElementById('voBoxSec').style.display = "none";
+    document.getElementById('dataOneSec').style.display = "none";
+    document.getElementById('sltUnivoSec').style.display = "inline";
+    document.getElementById('msmESec').style.display = "none";
+    document.getElementById('hostingCubSec').style.display = "none";
+    document.getElementById('peotvBizSec').style.display = "none";
+    document.getElementById('bizTunesSec').style.display = "none";
+    document.getElementById('lteFlashSec').style.display = "none";
+    document.getElementById('peotvBiz').style.display = "none";
+    document.getElementById('notUpdated').style.display = "none";
+}
+
+document.getElementById('lteFlash').onclick = function () {
+    document.getElementById('lteFlashSec').style.display = "inline";
+    document.getElementById('notUpdated').style.display = "none";
+    document.getElementById('voBoxSec').style.display = "none";
+    document.getElementById('dataOneSec').style.display = "none";
+    document.getElementById('sltUnivoSec').style.display = "none";
+    document.getElementById('msmESec').style.display = "none";
+    document.getElementById('hostingCubSec').style.display = "none";
+    document.getElementById('peotvBizSec').style.display = "none";
+    document.getElementById('bizTunesSec').style.display = "none";
+    document.getElementById('peotvBiz').style.display = "none";
+}
+
+document.getElementById('bizTunes').onclick = function () {
+    document.getElementById('notUpdated').style.display = "inline";
+    document.getElementById('voBoxSec').style.display = "none";
+    document.getElementById('dataOneSec').style.display = "none";
+    document.getElementById('sltUnivoSec').style.display = "none";
+    document.getElementById('msmESec').style.display = "none";
+    document.getElementById('hostingCubSec').style.display = "none";
+    document.getElementById('peotvBizSec').style.display = "none";
+    document.getElementById('bizTunesSec').style.display = "none";
+    document.getElementById('lteFlashSec').style.display = "none";
+    document.getElementById('peotvBiz').style.display = "none";
+}
+
+

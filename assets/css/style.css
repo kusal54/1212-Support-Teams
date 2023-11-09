@@ -8,7 +8,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: #001b20;
+    background-color: #ccf6ff;
 }
 
 #logoutBtn {
@@ -39,7 +39,7 @@ body {
 }
 
 .form-background {
-    background-color: #b6f3ff;
+    background-color: #ffffff;
     padding: 50px 40px;
     border-radius: 10px;
     display: inline-flexbox;
@@ -88,15 +88,6 @@ body {
     word-spacing: 4px;
 }
 
-.login-sub-title {
-    font-size: 16px;
-    color: #001b209d;
-    padding: 10px 0;
-    text-transform: capitalize;
-    text-align: center;
-    word-spacing: 1px;
-}
-
 .main-menu {
     display: flex;
     gap: 25px;
@@ -105,7 +96,7 @@ body {
 
 .main-menu li {
     list-style-type: none;
-    background-color: #00b8dd;
+    background-color: #ffffff;
     border: 1px solid #01829c;
     border-radius: 10px;
     padding: 20px 30px;
@@ -114,7 +105,7 @@ body {
 }
 
 .main-menu li:hover {
-    background-color: #005261;
+    background-color: #01829c;
     color: #ffffff;
 }
 
@@ -139,7 +130,7 @@ body {
     display: flex;
     justify-content: center;
     font-size: 14px;
-    color: #001b20d5;
+    color: #001b208a;
 }
 
 /*------------------- Main Section End -------------------*/
@@ -150,7 +141,6 @@ body {
     display: flex;
     align-items: flex-end;
     height: 40px;
-    background-color: #005261;
 }
 
 .footer-wrapper {
@@ -164,28 +154,10 @@ body {
 
 .footer-details {
     font-size: 14px;
-    color: #ffffff;
+    color: #001b20;
     margin: 0;
 }
 
 /*----------- Footer Section Start -----------*/
 
 /*------------------- Main Section End -------------------*/
-
-
-@media only screen and (max-width: 768px) {
-    .main-menu {
-        display: flex;
-        flex-direction: column;
-        gap: 25px;
-        padding: 0;
-    }
-
-    .login-title {
-        font-size: 20px;
-    }
-
-    #section-wrapper {
-        width: 60%;
-    }
-}
