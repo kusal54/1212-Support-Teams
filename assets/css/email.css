@@ -152,6 +152,11 @@ body {
     font-weight: 600;
 }
 
+.special-nav a{
+    color: #fff01c;
+    font-weight: 500;
+}
+
 /*----------- Mobile Nav Section End -----------*/
 
 /*----------- Hero Section Start -----------*/

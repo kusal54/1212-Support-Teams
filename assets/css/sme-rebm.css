@@ -72,6 +72,10 @@ body {
     font-weight: 550;
 }
 
+.special-nav a{
+    color: #fff01c;
+    font-weight: 500;
+}
 
 /*----------- Nav Section End -----------*/
 

@@ -65,11 +65,15 @@ body {
     text-transform: uppercase;
     font-size: 14px;
     font-weight: 500;
-
 }
 
 .nav-menu a:hover {
     font-weight: 550;
+}
+
+.special-nav a{
+    color: #fff01c;
+    font-weight: 500;
 }
 
 /*----------- Nav Section Start -----------*/

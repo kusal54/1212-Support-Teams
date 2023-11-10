@@ -27,6 +27,12 @@ body {
     padding-left: 5px;
 }
 
+.float-right {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+}
+
 /*----------- Basic Styles End -----------*/
 
 
@@ -72,6 +78,10 @@ body {
     font-weight: 550;
 }
 
+.special-nav a{
+    color: #fff01c;
+    font-weight: 500;
+}
 
 /*----------- Nav Section End -----------*/
 
@@ -218,17 +228,13 @@ body {
     margin: auto;
 }
 
-#notUpdated {
-    display: none;
-}
-
 .product-title {
     font-size: 30px;
     text-align: center;
     font-weight: 700;
     color: rgb(0, 80, 49);
-    padding-top: 30px;
-    padding-bottom: 5px;
+    padding-top: 50px;
+    padding-bottom: 10px;
     border-bottom: 1px solid #003022;
     width: 400px;
     margin: auto;
@@ -241,6 +247,7 @@ body {
     color: #630000;
     padding-top: 5px;
     padding-bottom: 30px;
+    font-weight: 600;
 }
 
 .product-discription {
@@ -270,25 +277,37 @@ body {
     text-align: center;
 }
 
+#sltUnivoSec {
+    display: none;
+}
+
+#cloudPosSec {
+    display: none;
+}
 
 #dataOneSec {
     display: none;
 }
 
-
 #hostingCubSec {
     display: none;
 }
 
-#sltUnivoSec {
+#peotvBizSec {
     display: none;
 }
 
-#lteFlashSec{
+#bizTunesSec {
     display: none;
 }
 
+#lteFlashSec {
+    display: none;
+}
 
+#notUpdated {
+    display: none;
+}
 
 /*----------- Package Section End -----------*/
 
