@@ -1,0 +1,257 @@
+/*----------- Basic Styles Start -----------*/
+* {
+    font-family: 'Lato', sans-serif;
+}
+
+body {
+    width: 100%;
+}
+
+.section-title {
+    font-size: 22px;
+    font-weight: 600;
+    text-align: center;
+    padding: 20px;
+    text-transform: uppercase;
+}
+
+#logoutBtn {
+    text-decoration: none;
+    color: #ad0000;
+    background-color: #ffffff;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+#logoutBtn span {
+    padding-left: 5px;
+}
+
+
+/*----------- Basic Styles End -----------*/
+
+
+/*----------- Nav Section Start -----------*/
+#navSection {
+    width: 100%;
+    height: 60px;
+    background-color: #01829c;
+    position: relative;
+}
+
+.navbar {
+    width: 80%;
+    margin: auto;
+    height: 60px;
+}
+
+.nav-menu {
+    display: flex;
+    gap: 12px;
+    margin: auto;
+}
+
+.nav-menu li {
+    list-style-type: none;
+    padding: 0 15px;
+    border-radius: 10px;
+}
+
+.nav-menu li:hover {
+    background-color: #00a2c2;
+}
+
+
+.nav-menu a {
+    text-decoration: none;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 500;
+
+}
+
+.nav-menu a:hover {
+    font-weight: 550;
+}
+
+.special-nav a{
+    color: #fff01c;
+    font-weight: 500;
+}
+
+/*----------- Nav Section Start -----------*/
+
+/*----------- Mobile Nav Section Start -----------*/
+#mobileNav{
+    width: 100%;
+    background-color: #00a2c2;
+    height: 60px;
+    display: none;
+    position: relative;
+    z-index: 999;
+}
+
+.mobile-nav-wrapper{
+    width: 80%;
+    margin: auto;
+}
+
+.mobile-nav-menu{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.mobile-nav-menu li{
+    list-style-type: none;
+}
+
+.mobile-nav-menu li i{
+    font-size: 40px;
+}
+
+#mobileCloseBtn{
+    display: none;
+}
+
+#hamMenu{
+    display: none;
+    width: 100%;
+    height: 100vh;
+    background-color: #01829c;
+    margin-top: -60px;
+}
+
+.ham-wrapper{
+    width: 80%;
+    margin: auto;
+    height: 80%;
+    display: flex;
+}
+
+.ham-menu{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding: 0;
+
+}
+
+.ham-menu li{
+    list-style-type: none;
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+    border-bottom: 1px solid #ffffff;
+}
+
+.ham-menu li a{
+    text-decoration: none;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.ham-menu li a:hover{
+    font-weight: 600;
+}
+
+/*----------- Mobile Nav Section End -----------*/
+
+/*----------- Hero Section Start -----------*/
+#hero-section {
+    height: 100vh;
+    background-image: url("../img/sme-team-hero-img.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.hero-section {
+    height: 89vh;
+    display: flex;
+    justify-content: center;
+}
+
+.hero-wrapper {
+    width: 80%;
+    margin: auto;
+}
+
+.hero-title {
+    text-align: right;
+    display: flex;
+    justify-content: flex-start;
+    font-size: 60px;
+    font-weight: bold;
+    line-height: 50px;
+    padding: 15px 0;
+    color: #001b20;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+/*----------- Hero Section Start -----------*/
+
+
+/*----------- Footer Section Start -----------*/
+#footer-section {
+    background-color: #001b20;
+    height: 40px;
+}
+
+.footer-wrapper {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+    align-items: center;
+}
+
+.footer-details {
+    font-size: 14px;
+    color: #ffffffb4;
+    margin: 0;
+}
+
+.footer-details-nav{
+    text-align: center;
+    color: #ffffffb4;
+    margin: auto;
+    font-size: 14px;
+    padding-top: 10px;
+}
+
+
+/*----------- Footer Section Start -----------*/
+
+
+/*----------- Tab and Mobile View Start -----------*/
+
+@media only screen and (max-width: 768px) {
+    #navSection {
+        display: none;
+    }
+
+    .hero-title {
+        font-size: 30px;
+        line-height: 30px;
+    }
+
+    #mobileNav{
+        display: flex;
+    }
+
+    #hamMenu{
+        flex-direction: column;
+    }
+
+
+
+}
+
+
+
+/*----------- Tab and Mobile View End -----------*/

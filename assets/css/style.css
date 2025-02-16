@@ -1,0 +1,163 @@
+* {
+    font-family: 'Lato', sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #ccf6ff;
+}
+
+#logoutBtn {
+    text-decoration: none;
+    color: #ad0000;
+    background-color: #ffffff;
+    padding: 5px 10px;
+}
+
+#logoutBtn span {
+    padding-left: 5px;
+}
+
+/*------------------- Login Start -------------------*/
+#srmLogin {
+    display: none;
+}
+
+#emailLogin {
+    display: none;
+}
+
+.login-title {
+    text-align: center;
+    font-size: 30px;
+    padding: 20px 0;
+    font-weight: 500;
+}
+
+.form-background {
+    background-color: #ffffff;
+    padding: 50px 40px;
+    border-radius: 10px;
+    display: inline-flexbox;
+}
+
+#section-wrapper {
+    width: 40%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+#login-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    padding: 10px 0;
+}
+
+#submitBtn {
+    margin-top: 5px;
+}
+
+/*------------------- Login End -------------------*/
+
+
+/*------------------- Main Section Start -------------------*/
+#main {
+    display: flex;
+    flex-direction: column;
+}
+
+#mainMenu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.login-title {
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    word-spacing: 4px;
+}
+
+.main-menu {
+    display: flex;
+    gap: 25px;
+    padding: 0;
+}
+
+.main-menu li {
+    list-style-type: none;
+    background-color: #ffffff;
+    border: 1px solid #01829c;
+    border-radius: 10px;
+    padding: 20px 30px;
+    text-align: center;
+    width: 200px;
+}
+
+.main-menu li:hover {
+    background-color: #01829c;
+    color: #ffffff;
+}
+
+.main-menu a {
+    text-decoration: none;
+    color: rgb(29, 29, 29);
+    font-size: 16px;
+    font-weight: 500;
+}
+
+
+.main-menu a i {
+    font-size: 30px;
+    padding: 10px 0;
+}
+
+.menu-title {
+    text-transform: uppercase;
+}
+
+.version-para {
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+    color: #001b208a;
+}
+
+/*------------------- Main Section End -------------------*/
+
+
+/*----------- Footer Section Start -----------*/
+#footer-section {
+    display: flex;
+    align-items: flex-end;
+    height: 40px;
+}
+
+.footer-wrapper {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+    align-items: center;
+}
+
+.footer-details {
+    font-size: 14px;
+    color: #001b20;
+    margin: 0;
+}
+
+/*----------- Footer Section Start -----------*/
+
+/*------------------- Main Section End -------------------*/

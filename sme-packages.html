@@ -1,0 +1,996 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap Linked -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <!-- CSS Linked -->
+    <link rel="stylesheet" type="text/css" href="assets/css/sme-packages.css">
+    <!-- Fontawesome Linked -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Font Linked -->
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <title>SME - Products</title>
+</head>
+
+<body>
+
+    <!-- Nav Bar Start -->
+    <section id="navSection" class="desktop">
+        <div class="navbar">
+            <ul class="nav-menu">
+                <li><a href="sme.html">Home</a></li>
+                <li><a href="sme-team.html">Our Team</a></li>
+                <li><a href="sme-packages.html">SME Products</a></li>
+                <li><a href="sme-rebm.html">REBM Mapping</a></li>
+                <li class="special-nav"><a href="https://172.25.36.63/index.php?menu=agent_console"
+                        target="_blank">Issabel Portal</a></li>
+                <li class="special-nav"><a href="https://bizleads.slt.lk" target="_blank">Biz Leads Portal</a></li>
+                <li class="special-nav"><a href="https://smecxapp.slt.lk/bizleads-pending/" target="_blank">Pending
+                        Leads</a></li>
+            </ul>
+            <a id="logoutBtn" href="index.html">Logout <span><i class="fa fa-power-off"></i></span></a>
+        </div>
+    </section>
+    <!-- Nav Bar End -->
+
+    <!-- Mobile Nav Bar Start -->
+    <section id="mobileNav">
+        <div class="mobile-nav-wrapper">
+            <ul class="mobile-nav-menu">
+                <li id="hamburgerMenu"><i class="fa fa-bars" style="color: #ffffff;"></i></li>
+                <li id="mobileCloseBtn"><i class="fa fa-times" style="color: #ffffff;"></i></li>
+                <a id="logoutBtn" href="index.html">Logout <span><i class="fa fa-power-off"></i></span></a>
+            </ul>
+        </div>
+    </section>
+    <section id="hamMenu">
+        <div class="ham-wrapper">
+            <ul class="ham-menu">
+                <li><a href="sme.html">Home</a></li>
+                <li><a href="sme-team.html">Our Team</a></li>
+                <li><a href="sme-packages.html">SME Products</a></li>
+                <li><a href="sme-rebm.html">REBM Mapping</a></li>
+                <li><a href="https://172.25.36.63/index.php?menu=agent_console" target="_blank">Issabel Portal</a></li>
+                <li><a href="https://bizleads.slt.lk" target="_blank">Biz Leads Portal</a></li>
+                <li><a href="https://smecxapp.slt.lk/bizleads-pending/" target="_blank">Pending Leads</a></li>
+            </ul>
+        </div>
+        <p class="footer-details-nav">© SLT Contact Center | All Rights Reserved</p>
+    </section>
+    <!-- Mobile Nav Bar End -->
+
+
+    <!-- Answer Section Start -->
+    <section id="answerSection">
+        <div class="answer-wrapper">
+            <!-- Tabs Section Start -->
+            <div class="tab-wrapper">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm">
+                            <p id="voBox" class="tab">VoBox</p>
+                        </div>
+                        <div class="col-sm">
+                            <p id="sltUnivo" class="tab">SLTM Univo</p>
+                        </div>
+                        <div class="col-sm">
+                            <p id="cloudPos" class="tab">Cloud POS</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm">
+                            <p id="dataOne" class="tab">Data One</p>
+                        </div>
+                        <div class="col-sm">
+                            <p id="hostingCub" class="tab">Hosting Cub</p>
+                        </div>
+                        <div class="col-sm">
+                            <p id="peotvBiz" class="tab">PEO TV Biz</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm">
+                            <p id="bizTunes" class="tab">Biz Tunes</p>
+                        </div>
+                        <div class="col-sm">
+                            <p id="lteFlash" class="tab">Biz Life LTE Flash</p>
+                        </div>
+                        <div class="col-sm">
+                            <p id="other" class="tab">Other Packages</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Tabs Section End -->
+
+
+        <!-- Product Section Start -->
+
+        <section id="productSection">
+            <div class="product-wrapper">
+                <!-- Unknown -->
+                <div id="notUpdated" class="target-wrapper">
+                    <h1 class="warning-msg">Product Details Pending..</h1>
+                </div>
+
+                <!-- VoBox -->
+                <div id="voBoxSec">
+                    <h1 class="product-title">SLTM VoBox</h1>
+                    <h2 class="product-sub-title">Interconnected voice solution</h2>
+                    <h3 class="sub-title">Details :-</h3>
+                    <ul class="product-features">
+                        <li>Similar to PBX but not complex as PBX.</li>
+                        <li>Low cost than PBX</li>
+                        <li>Any medium of Voice connectivity. <br>- <i>Megaline, FTTH and 4G LTE in any combination (2
+                                to 50
+                                connections) </i></li>
+                        <li>Platinum category premium number. <br>- <i>Example: 0112XYXYXY / 0112XYZXYZ.</i></li>
+                        <li>Interactive Voice Response (IVR). <br>- <i>Pre-recorded voice interacts with human to
+                                response
+                                the incoming call and direct the correct department/agent</i>
+                        </li>
+                        <li>Free calls within the group.</li>
+                        <li>This feature is available in Both SLT And Mobitel.</li>
+                        <li>CENTREX features. <br>- <i> Call Transferring, Call Forwarding, Call Conferencing, Short
+                                Code
+                                Dialing etc…</i>
+                        </li>
+                    </ul>
+
+                    <!-- VoBox - Rental - Table -->
+                    <h3 class="sub-title">Package Rentals :-</h3>
+                    <table class="table table table-bordered table-settings">
+                        <thead class="table-success align-middle">
+                            <tr>
+                                <th scope="col">Access Link Type</th>
+                                <th scope="col">Monthly Commitment <br>(New Connection)</th>
+                                <th scope="col">Monthly Commitment <br>(Exsisting Connection)</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="table-warning">
+                                <td>FTTH</td>
+                                <td>Rs. 2,000</td>
+                                <td>Rs. 1,000</td>
+                            </tr>
+                            <tr class="table-warning">
+                                <td>Megaline</td>
+                                <td>Rs. 1,500</td>
+                                <td>Rs. 1,000</td>
+                            </tr>
+                            <tr class="table-warning">
+                                <td>LTE</td>
+                                <td>Rs. 1,000</td>
+                                <td>Rs. 1,000</td>
+                            </tr>
+                            <tr class="table-warning">
+                                <td>Mobitel</td>
+                                <td>Rs. 1,000</td>
+                                <td>Rs. 1,000</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <ul class="product-features">
+                        <li><strong>No initiation charges and customer must enter to the minimum of 2 years commitment
+                                plan.
+                                Penalty charges are
+                                applied for early termination.</strong>
+                        </li>
+                    </ul>
+
+                    <!-- VoBox - Call rates - Table -->
+                    <h3 class="sub-title">Call Rates :-</h3>
+                    <table class="table table table-bordered table-settings">
+                        <thead class="table-primary align-middle">
+                            <tr>
+                                <th scope="col" colspan="2"></th>
+                                <th scope="col">Call Rates</th>
+                            </tr>
+                        </thead>
+                        <tbody class="align-middle">
+                            <tr class="table-danger">
+                                <td>Within the Calling Group</td>
+                                <td>SLT - SLT</td>
+                                <td>Free of Charge</td>
+                            </tr>
+                            <tr class="table-danger">
+                                <td rowspan="3">Outside the Calling Group</td>
+                            </tr>
+                            <tr class="table-danger">
+                                <td>SLT – SLT <br>SLT - Mobitel</td>
+                                <td>Rs.1.00 per Min</td>
+                            </tr>
+                            <tr class="table-danger">
+                                <td>SLT – Other </td>
+                                <td>Rs.1.50 per Min</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <ul class="product-features">
+                        <li><strong>Intercom free, Outgoing calls from Vobox numbers to Mobitel and SLT other numbers
+                                are considered as on net calls
+                                and the rate is Rs. 1 per Min.</strong>
+                        </li>
+                        <li><strong>Outgoing calls from VoBox numbers to other operator calls are rated as Rs. 1.50 per
+                                Min.</strong>
+                        </li>
+                    </ul>
+                </div>
+
+
+                <!-- Data One -->
+                <div id="dataOneSec">
+                    <h1 class="product-title">Data One</h1>
+                    <h2 class="product-sub-title">Share your single data among branches</h2>
+                    <h3 class="sub-title">Details :-</h3>
+                    <ul class="product-features">
+                        <li>Single bulk Broadband Package for all the branches of
+                            your business.</li>
+                        <li>Data offers as Anytime packages.</li>
+                        <li>A portal will be provided to monitor the data usage,
+                            manage the data bucket and manage data allocation
+                            for the branch access.</li>
+                        <li>Portal will be created by the Account Manager.</li>
+                        <li>Extra GB available (Standard Extra GB pricing would apply).</li>
+                        <li>Static IP is to be provided with standard charges.</li>
+                        <li>Data One service charge - Rs.100/- (per each branch).</li>
+                        <li>Data is prorated in new connections.</li>
+                        <li>Package upgrades & downgrades will be done through Account Managers.</li>
+                        <li>Faults reported will be done as normal with the fauly branch User ID.</li>
+                    </ul>
+
+                    <!-- Data One - Rental - Table -->
+                    <h3 class="sub-title">Package Rentals :-</h3>
+                    <table class="table table-bordered table-settings">
+                        <thead class="table-success align-middle">
+                            <tr>
+                                <th scope="col">Package Name</th>
+                                <th scope="col">Anytime Volume</th>
+                                <th scope="col">Price (LKR)</th>
+                                <th scope="col">Max Branches Allowed</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="table-warning">
+                                <th scope="row">Newborn</th>
+                                <td>100 GB</td>
+                                <td>4,500</td>
+                                <td>4</td>
+                            </tr>
+                            <tr class="table-warning">
+                                <th scope="row">Startup</th>
+                                <td>150 GB</td>
+                                <td>6,700</td>
+                                <td>6</td>
+                            </tr>
+                            <tr class="table-warning">
+                                <th scope="row">Grow</th>
+                                <td>250 GB</td>
+                                <td>10,000</td>
+                                <td>10</td>
+                            </tr>
+                            <tr class="table-warning">
+                                <th scope="row">Explore</th>
+                                <td>400GB</td>
+                                <td>16,000</td>
+                                <td>15</td>
+                            </tr>
+                            <tr class="table-warning">
+                                <th scope="row">Energized</th>
+                                <td>700 GB</td>
+                                <td>28,000</td>
+                                <td>20</td>
+                            </tr>
+                            <tr class="table-warning">
+                                <th scope="row">Redefine</th>
+                                <td>1000 GB</td>
+                                <td>36,000</td>
+                                <td>25</td>
+                            </tr>
+                            <tr class="table-warning">
+                                <th scope="row">Astonish</th>
+                                <td>2000 GB</td>
+                                <td>70,000</td>
+                                <td>30</td>
+                            </tr>
+                            <tr class="table-warning">
+                                <th scope="row">Enterprise</th>
+                                <td>5000 GB</td>
+                                <td>165,000</td>
+                                <td>40</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+
+
+
+                <!-- Hosting Cub -->
+                <div id="hostingCubSec">
+                    <h1 class="product-title">Hosting Cub</h1>
+                    <h2 class="product-sub-title">Shared Web Hosting</h2>
+                    <p class="product-discription">The product Shared Web Hosting has developed in order to cater
+                        SME & Micro hosting requirement of the customers with affordable
+                        pricing.</p>
+                    <h3 class="sub-title">Shared Hosting</h3>
+                    <ul class="product-features">
+                        <li>Most economical option for hosting, where overall cost of
+                            server maintenance is been sharing. Suitable for low traffic websites that
+                            do not require higher bandwidth such as small websites & blogs.</li>
+                    </ul>
+                    <!-- Shared Hosting - Table -->
+                    <table class="table table table-bordered table-settings">
+                        <thead class="table-success align-middle">
+                            <tr>
+                                <th scope="col">Stellar</th>
+                                <th scope="col">Stellar Plus</th>
+                                <th scope="col">Stellar Pro</th>
+                                <th scope="col">Stellar Business</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="table-warning">
+                                <td>Price per year Rs.7,500/=</td>
+                                <td>Price per year 12,000/=</td>
+                                <td>Price per year 16,500/=</td>
+                                <td>Price per year 25,500/=</td>
+                            </tr>
+                            <tr class="table-warning">
+                                <td>1 GB Managed Disk
+                                    Space
+                                </td>
+                                <td>2 GB Managed Disk
+                                    Space</td>
+                                <td>3 GB Managed Disk
+                                    Space</td>
+                                <td>5 GB Managed Disk
+                                    Space</td>
+                            </tr>
+                            <tr class="table-warning">
+                                <td>20 GB Bandwidth/ mo</td>
+                                <td>40 GB Bandwidth/ mo</td>
+                                <td>100 GB Bandwidth/ mo</td>
+                                <td>150 GB Bandwidth/ mo</td>
+                            </tr>
+                            <tr class="table-warning">
+                                <td>2 Mbps</td>
+                                <td>2 Mbps</td>
+                                <td>2 Mbps</td>
+                                <td>2 Mbps</td>
+                            </tr>
+                            <tr class="table-warning">
+                                <td>10 Websites Allowed</td>
+                                <td>15 Websites Allowed</td>
+                                <td>30 Websites Allowed</td>
+                                <td>40 Websites Allowed</td>
+                            </tr>
+                            <tr class="table-warning">
+                                <td>SSL</td>
+                                <td>SSL</td>
+                                <td>SSL</td>
+                                <td>SSL</td>
+                            </tr>
+                            <tr class="table-warning">
+                                <td>FTP Accounts</td>
+                                <td>FTP Accounts</td>
+                                <td>FTP Accounts</td>
+                                <td>FTP Accounts</td>
+                            </tr>
+                            <tr class="table-warning">
+                                <td>Unlimited Email Accounts</td>
+                                <td>Unlimited Email Accounts</td>
+                                <td>Unlimited Email Accounts</td>
+                                <td>Unlimited Email Accounts</td>
+                            </tr>
+                            <tr class="table-warning">
+                                <td>Unlimited MySQL DBs</td>
+                                <td>Unlimited MySQL DBs</td>
+                                <td>Unlimited MySQL DBs</td>
+                                <td>Unlimited MySQL DBs</td>
+                            </tr>
+                            <tr class="table-warning">
+                                <td>Unlimited Sub Domains</td>
+                                <td>Unlimited Sub Domains</td>
+                                <td>Unlimited Sub Domains</td>
+                                <td>Unlimited Sub Domains</td>
+                            </tr>
+                            <tr class="table-warning">
+                                <td>Hosting in SLT IDC </td>
+                                <td>Hosting in SLT IDC </td>
+                                <td>Hosting in SLT IDC </td>
+                                <td>Hosting in SLT IDC </td>
+                            </tr>
+                            <tr class="table-warning">
+                                <td>WordPress Supported </td>
+                                <td>WordPress Supported </td>
+                                <td>WordPress Supported </td>
+                                <td>WordPress Supported </td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <h3 class="sub-title">VPS Hosting</h3>
+                    <ul class="product-features">
+                        <li>With VPS hosting, customer will get dedicated server space
+                            with a reserved number of resources, offering greater control and
+                            customization than shared hosting .</li>
+                    </ul>
+                    <!-- VPS Hosting - Table -->
+                    <table class="table table table-bordered table-settings">
+                        <thead class="table-success align-middle">
+                            <tr>
+                                <th scope="col">Starter</th>
+                                <th scope="col">Premium</th>
+                                <th scope="col">Extended</th>
+                                <th scope="col">Advanced
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="table-warning">
+                                <td>Price per year Rs.21,500/=</td>
+                                <td>Price per year 27,125/=</td>
+                                <td>Price per year 49,750/=</td>
+                                <td>Price per year 82,875/=</td>
+                            </tr>
+                            <tr class="table-warning">
+                                <td>1 Core</td>
+                                <td>2 Core</td>
+                                <td>4 Core</td>
+                                <td>8 Core</td>
+                            </tr>
+                            <tr class="table-warning">
+                                <td>1 GB RAM</td>
+                                <td>2 GB RAM</td>
+                                <td>8 GB RAM</td>
+                                <td>16 GB RAM</td>
+                            </tr>
+                            <tr class="table-warning">
+                                <td>30 GB Managed Disk Space</td>
+                                <td>50 GB Managed Disk Space</td>
+                                <td>150 GB Managed Disk Space</td>
+                                <td>350 GB Managed Disk Space</td>
+                            </tr>
+                            <tr class="table-warning">
+                                <td>2 Mbps</td>
+                                <td>2 Mbps</td>
+                                <td>2 Mbps</td>
+                                <td>2 Mbps</td>
+                            </tr>
+                            <tr class="table-warning">
+                                <td>10 Websites Allowed</td>
+                                <td>15 Websites Allowed</td>
+                                <td>30 Websites Allowed</td>
+                                <td>40 Websites Allowed</td>
+                            </tr>
+                            <tr class="table-warning">
+                                <td>SSL</td>
+                                <td>SSL</td>
+                                <td>SSL</td>
+                                <td>SSL</td>
+                            </tr>
+                            <tr class="table-warning">
+                                <td>FTP Accounts</td>
+                                <td>FTP Accounts</td>
+                                <td>FTP Accounts</td>
+                                <td>FTP Accounts</td>
+                            </tr>
+                            <tr class="table-warning">
+                                <td>Unlimited Email Accounts</td>
+                                <td>Unlimited Email Accounts</td>
+                                <td>Unlimited Email Accounts</td>
+                                <td>Unlimited Email Accounts</td>
+                            </tr>
+                            <tr class="table-warning">
+                                <td>Unlimited MySQL DBs</td>
+                                <td>Unlimited MySQL DBs</td>
+                                <td>Unlimited MySQL DBs</td>
+                                <td>Unlimited MySQL DBs</td>
+                            </tr>
+                            <tr class="table-warning">
+                                <td>Unlimited Sub Domains</td>
+                                <td>Unlimited Sub Domains</td>
+                                <td>Unlimited Sub Domains</td>
+                                <td>Unlimited Sub Domains</td>
+                            </tr>
+                            <tr class="table-warning">
+                                <td>Hosting in SLT IDC </td>
+                                <td>Hosting in SLT IDC </td>
+                                <td>Hosting in SLT IDC </td>
+                                <td>Hosting in SLT IDC </td>
+                            </tr>
+                            <tr class="table-warning">
+                                <td>WordPress Supported </td>
+                                <td>WordPress Supported </td>
+                                <td>WordPress Supported </td>
+                                <td>WordPress Supported </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <!-- Hosting Cub -->
+                <div id="sltUnivoSec">
+                    <h1 class="product-title">SLTM Univo</h1>
+                    <h2 class="product-sub-title">PBX and IOT Gateway Solution </h2>
+                    <ul class="product-features">
+                        <li><strong>IP PBX designed within the SLT R& D team with industry-leading technical
+                                features.</strong></li>
+                        <li><strong>Connect wired or wireless IP extensions, PSTN phones, PC or mobile phone to
+                                create your internal PBX System.</strong></li>
+                        <li><strong>Move from a Capex operation to an Opex operation through installments plan
+                                for your communication system.</strong></li>
+                    </ul>
+                    <h3 class="sub-title">Features:-</h3>
+                    <ul class="product-features">
+                        <li>Mobile and Fixed Clients (SIP & GSM Connectivity).</li>
+                        <li>Unlimited auto attendant/ IVR.</li>
+                        <li>Flexible time-based call counting.</li>
+                        <li>User management and group creation.</li>
+                        <li>Ring groups.</li>
+                        <li>Music-on-hold.</li>
+                        <li>Customizable announcements.</li>
+                        <li>Call Recording Reports.</li>
+                        <li>Caller-ID.</li>
+                        <li>Do-not-disturb.</li>
+                        <li>Call forwarding.</li>
+                        <li>Call waiting.</li>
+                        <li>Call history and CDR.</li>
+                    </ul>
+
+                    <h3 class="sub-title">Packages:-</h3>
+                    <table class="table table table-bordered table-settings">
+                        <thead></thead>
+                        <tbody>
+                            <tr class="table-success">
+                                <th scope="col" rowspan="3"></th>
+                                <th scope="col">Package 1</th>
+                                <th scope="col">Package 2</th>
+                                <th scope="col">Package 3</th>
+                                <th scope="col">Package 4</th>
+                                <th scope="col">Package 5</th>
+                            </tr>
+                            <tr class="table-success">
+                                <th>(Broze)</td>
+                                <th>(Silver)</th>
+                                <th>(Gold)</th>
+                                <th>(Platinum)</th>
+                                <th>(Diamond)</th>
+                            </tr>
+                            <tr class="table-primary">
+                                <td>Univo GW (2GB)</td>
+                                <td>Univo GW (4GB)</td>
+                                <td>Univo GW (8GB)</td>
+                                <td>Univo GW (4GB)</td>
+                                <td>Univo GW (8GB)</td>
+                            </tr>
+                            <tr class="table-secondary">
+                                <th scope="col" class="table-success table-bordered">No. of Extentions</th>
+                                <td rowspan="2" class="align-middle">Up to 10</td>
+                                <td rowspan="2" class="align-middle">Up to 20</td>
+                                <td rowspan="2" class="align-middle">Up to 30</td>
+                                <td rowspan="2" class="align-middle">Up to 60</td>
+                                <td rowspan="2" class="align-middle">Up to 100+</td>
+                            </tr>
+                            <tr class="table-secondary">
+                                <th scope="col" class="table-success table-bordered">(IP/ Analog Phones, Soft Clients)
+                                </th>
+                            </tr>
+                            <tr class="table-secondary">
+                                <th class="table-success">No. of SIP Sessions</th>
+                                <td>5</td>
+                                <td>Up to 10</td>
+                                <td>Up to 15</td>
+                                <td>Up to 20</td>
+                                <td>Up to 20</td>
+                            </tr>
+                            <tr class="table-secondary">
+                                <th class="table-success">Univo GW Monthly Rental (LKR)</th>
+                                <td colspan="5">Customizable depending on the selection of the end devices (PBX Package,
+                                    IP phone, IAD etc.)</td>
+                            </tr>
+                            <tr class="table-secondary">
+                                <th class="table-success">Extension Rental (LKR)</th>
+                                <td colspan="5">Depends on the physical extensions & soft clients</td>
+                            </tr>
+                            <tr class="table-secondary">
+                                <th class="table-success">Early Termination (LKR)</th>
+                                <td colspan="5" rowspan="2" class="align-middle">Customizable depending on the selection
+                                    of the end devices (PBX Package, IP phone, IAD etc.)</td>
+                            </tr>
+                            <tr class="table-secondary">
+                                <th class="table-success">(For balance months within the commitment period)</th>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <!-- LTE Flash -->
+                <div id="lteFlashSec">
+                    <h1 class="product-title">SLTM Biz Life</h1>
+                    <h2 class="product-sub-title">LTE Flash Packages</h1>
+                        <table class="table table-bordered table-settings">
+                            <thead class="table-success align-middle">
+                                <tr>
+                                    <th scope="col">BizLife Mini</th>
+                                    <th scope="col">BizLife Mini Flash</th>
+                                    <th scope="col">BizLife Advance</th>
+                                    <th scope="col">BizLife Advance Flash</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="table-warning">
+                                    <td>Any Flix : 58 GB <br>+ <br> Meet Light<br> +<br>
+                                        Messenger/WhatsApp Package</td>
+                                    <td>Flash 5<br> +<br> Meet Light<br> +
+                                        <br> Messenger/WhatsApp Package
+                                    </td>
+                                    <td>Any Spike : 155 GB <br>+ <br>Meet Light <br>+<br>
+                                        Messenger/WhatsApp Package</td>
+                                    <td>Flash 10<br> + <br> Meet Light <br>+ <br>Messenger/WhatsApp
+                                        Package</td>
+                                </tr>
+                                <tr class="table-warning">
+                                    <td>50 GB</td>
+                                    <td>50 GB</td>
+                                    <td>100 GB</td>
+                                    <td>100 GB</td>
+                                </tr>
+                                <tr class="table-warning">
+                                    <td>Voice Unlimited 1000</td>
+                                    <td>Voice Unlimited 1000</td>
+                                    <td>Voice Unlimited 1500</td>
+                                    <td>Voice Unlimited 1500</td>
+                                </tr>
+                                <tr class="table-warning">
+                                    <td>3 Devise </td>
+                                    <td>3 Devise </td>
+                                    <td>3 Devise </td>
+                                    <td>3 Devise </td>
+                                </tr>
+                                <tr class="table-warning">
+                                    <td>Video conferencing
+                                        25 Participant</td>
+                                    <td>Video conferencing
+                                        25 Participant</td>
+                                    <td>Video conferencing
+                                        50 Participant</td>
+                                    <td>Video conferencing
+                                        50 Participant</td>
+                                </tr>
+                                <tr class="table-warning">
+                                    <td>BIZ mail – 5GB</td>
+                                    <td>BIZ mail – 5GB</td>
+                                    <td>Static IP</td>
+                                    <td>Static IP</td>
+                                </tr>
+                                <tr class="table-warning align-middle">
+                                    <td colspan="2">-</td>
+                                    <td>Shared Web Hosting <br>
+                                        <i><small>(1000MB, DNS hosting free, <br>Web builder option)</small></i>
+                                    </td>
+                                    <td>Shared Web Hosting <br>
+                                        <i><small>(1000MB, DNS hosting free, <br>Web builder option)</small></i>
+                                    </td>
+                                </tr>
+                                <tr class="table-warning">
+                                    <td>Rental: Rs.4,500</td>
+                                    <td>Rental: Rs.4,500</td>
+                                    <td>Rental: Rs.10,000</td>
+                                    <td>Rental: Rs.10,000</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                </div>
+
+                <!-- PEO TV Biz -->
+                <div id="peotvBizSec">
+                    <h1 class="product-title">Peo TV Biz</h1>
+                    <h2 class="product-sub-title">Multiple PEO TV via FTTH</h2>
+                    <h3 class="sub-title">Details :-</h3>
+                    <ul class="product-features">
+                        <li>Enables from 5 – 15 PEO TV extensions through
+                            1 single fibre line.</li>
+                        <li>3 attractive packages and customizable
+                            package including a variety of international
+                            and local channels.</li>
+                        <li><strong>New Connection :</strong> Standard FTTH New Connection Charges.</li>
+                        <li><strong>Monthly Rental :</strong> Standard Line Rental per month (voice enabled).</li>
+                        <li>Customer must bear the internal structural wiring cost and L2 Switch cost.</li>
+                        <li>One year commitment.</li>
+                    </ul>
+                    <table class="table table table-bordered table-settings">
+                        <thead class="table-success align-middle">
+                            <tr>
+                                <th scope="col">Package Name</th>
+                                <th scope="col">PEO TV Primary Cinnection Charge</th>
+                                <th scope="col">PEO TV Extra Connection Charge (Discounted Rate)</th>
+                                <th scope="col">PEO TV Extra Connection Charge (Discounted Price)</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="table-warning">
+                                <th scope="col">PEO BIZ Silver</th>
+                                <td>Rs. 1,025/=</td>
+                                <td>15%</td>
+                                <td>Rs. 875/=</td>
+                            </tr>
+                            <tr class="table-warning">
+                                <th scope="col">PEO BIZ Silver Plus</th>
+                                <td>Rs. 1,275/=</td>
+                                <td>30%</td>
+                                <td>Rs. 895/=</td>
+                            </tr>
+                            <tr class="table-warning">
+                                <th scope="col">PEO BIZ Gold</th>
+                                <td>Rs. 2,000/=</td>
+                                <td>30%</td>
+                                <td>Rs. 1,400/=</td>
+                            </tr>
+                            <tr class="table-warning">
+                                <th scope="col">PEO BIZ Diamond</th>
+                                <td>Cutomomized Price</td>
+                                <td colspan="2">Rs. 5000 - Rs.100,000</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <h3 class="sub-title float-right">Peo TV Biz Suitable Industries</h3>
+                    <ul class="product-features float-right">
+                        <li>Hotels</li>
+                        <li>Budget Hotels</li>
+                        <li>Guest Houses</li>
+                        <li>Restaurants</li>
+                        <li>Cafes</li>
+                        <li>Hospitals</li>
+                        <li>Bars and Pubs</li>
+                        <li>Gyms</li>
+                        <li>Spas</li>
+                        <li>Salons</li>
+                    </ul>
+                </div>
+
+
+                <!-- Cloud POS -->
+                <div id="cloudPosSec">
+                    <h1 class="product-title">Cloud POS</h1>
+                    <h2 class="product-sub-title">Easy to use Fully intergrated POS</h2>
+                    <h3 class="sub-title">Product Features :-</h3>
+                    <ul class="product-features">
+                        <li>Store & User Management.</li>
+                        <li>Sales (Billing/ Invoicing and more).</li>
+                        <li>Unlimited Products.</li>
+                        <li>Stock Management (Always Available/ GRN/ Stock Add).</li>
+                        <li>Customers.</li>
+                        <li>Loyalty.</li>
+                        <li>Orders.</li>
+                        <li>Debtors.</li>
+                        <li>Suppliers/ Payments/ Invoices.</li>
+                        <li>Data Approvals (Check and confirm/ change Stocks, Orders, Price Changes etc).</li>
+                        <li>Expiry/ MoQ.</li>
+                        <li>Bill of Materials (BoM) to Inventory and Production Planning.</li>
+                        <li>Gift Cards.</li>
+                        <li>Discounts & Card Offers.</li>
+                        <li>Bundle Items.</li>
+                        <li>De-assembled Products.</li>
+                        <li>Cash Register and daily targets.</li>
+                        <li>Analytical Dashboards and Reports.</li>
+                        <li>Business tips.</li>
+                        <li>Value Added Services.</li>
+                    </ul>
+                    <h3 class="sub-title">SLTM Cloud POS Functions :-</h3>
+                    <ul class="product-features">
+                        <li>Product uploading option using an Excel Sheet.</li>
+                        <li>Feature of handing multiple stores from one software.</li>
+                        <li>Variety of Discount Methods-Product wise, Card wise and Store wise</li>
+                        <li>Two selling prices can be managed to the same product.</li>
+                        <li>Price Customization feature.</li>
+                        <li>Handling Suppliers, Purchase Orders and GRN.</li>
+                        <li>Able to analyze and manage multiple stores by a single admin panel.</li>
+                        <li>Easy analysis of the performance of all stores using the dashboard whenever
+                            they want.</li>
+                        <li>Direct stock adds without using PO and GRN.</li>
+                        <li>Notification feature which will be easy to notify new updates, New products
+                            added.</li>
+                        <li>Lower Setup Time to availability of pre-Loaded products lists from range of
+                            suppliers.</li>
+                        <li>Multilingual support which will support any SME (Sinhala, English, Tamil).</li>
+                        <li>Able to work offline without Wi-Fi connection.</li>
+                        <li>Product bundling and dissembling feature.</li>
+                        <li>Easy integration into an E-Commerce Platform.</li>
+                        <li>KOT, BOT modules for restaurants.</li>
+                        <li>Customer loyalty program.</li>
+                    </ul>
+                    <table class="table table table-bordered table-settings">
+                        <thead class="table-success align-middle">
+                            <tr>
+                                <th scope="col">Package Name</th>
+                                <th scope="col">Products Quantity</th>
+                                <th scope="col">Period</th>
+                                <th scope="col" colspan="2">Subscription (LKR)</th>
+                            </tr>
+                        </thead>
+                        <tbody class="align-middle">
+                            <tr class="table-primary">
+                                <td scope="col"></td>
+                                <td></td>
+                                <td></td>
+                                <td>Windows</td>
+                                <td>Android</td>
+                            </tr>
+                            <tr class="table-warning">
+                                <td scope="col" rowspan="2"><strong>Standard</strong></td>
+                                <td rowspan="2">5,000</td>
+                                <td>Monthly</td>
+                                <td>5,500/=</td>
+                                <td>5,500/=</td>
+                            </tr>
+                            <tr class="table-warning">
+                                <td>Annual</td>
+                                <td>55,000/=</td>
+                                <td>55,000/=</td>
+                            </tr>
+                            <tr class="table-warning">
+                                <td scope="col" rowspan="2"><strong>Professional</strong></td>
+                                <td rowspan="2">10,000</td>
+                                <td>Monthly</td>
+                                <td>7,500/=</td>
+                                <td>7,500/=</td>
+                            </tr>
+                            <tr class="table-warning">
+                                <td>Annual</td>
+                                <td>75,000/=</td>
+                                <td>75,000/=</td>
+                            </tr>
+                            <tr class="table-warning">
+                                <td scope="col" rowspan="2"><strong>Premium</strong></td>
+                                <td rowspan="2">Unlimited</td>
+                                <td>Monthly</td>
+                                <td>9,000/=</td>
+                                <td>9,000/=</td>
+                            </tr>
+                            <tr class="table-warning">
+                                <td>Annual</td>
+                                <td>90,000/=</td>
+                                <td>90,000/=</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <h3 class="sub-title">Other Benefits :-</h3>
+                    <ul class="product-features">
+                        <li><strong>Software installation charge could be customized and price
+                                override facility available – LKR 2000 - 50000.</strong></li>
+                        <li><strong>Standard package - Two POS user accounts free, Additional
+                                each POS terminal LKR 500.00 monthly.</strong></li>
+                        <li><strong>Professional & Premium package - Two POS user accounts
+                                free, Additional each POS terminal LKR 1000.00 monthly.</strong></li>
+                    </ul>
+                    <table class="table table table-bordered table-settings">
+                        <thead class="table-success align-middle">
+                            <tr>
+                                <th scope="col">User Roll</th>
+                                <th scope="col">Description</th>
+
+                            </tr>
+                        </thead>
+                        <tbody class="align-middle">
+                            <tr class="table-warning">
+                                <td>Super Admin</td>
+                                <td>One role</td>
+                            </tr>
+                            <tr class="table-warning">
+                                <td>Admin</td>
+                                <td>Not charging (1-2)</td>
+                            </tr>
+                            <tr class="table-warning">
+                                <td>Manager</td>
+                                <td>Not charging (1- 5)</td>
+                            </tr>
+                            <tr class="table-warning">
+                                <td>Data Entry</td>
+                                <td>Not charging (1-10)</td>
+                            </tr>
+                            <tr class="table-warning">
+                                <td>POS User (Cashier)</td>
+                                <td>2 users free per location</td>
+                            </tr>
+                            <tr class="table-warning">
+                                <td>Supervisor</td>
+                                <td>Not charging (1-10)</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <!-- Biz Tunes -->
+                <div id="bizTunesSec">
+                    <h1 class="product-title">Biz Tunes</h1>
+                    <h2 class="product-sub-title">Business related caller tunes</h2>
+                    <h3 class="sub-title">Product Features :-</h3>
+                    <ul class="product-features">
+                        <li>A Business-related recording played in business customer SLT
+                            telephone line as a Caller ring back tone.</li>
+                        <li>Business customer can include a business-related voice recording to
+                            his SLT voice line.</li>
+                        <li>This recording may be about their product/services, promotions and
+                            offering or any other announcement that need to communicate with
+                            their customer.</li>
+                        <li>Recording can be provided to any of the SLT fixed telephone line.</li>
+                        <li>Same Business jingle can be provided to Mobile & SLT fixed
+                            numbers ( Megaline, FTTH and LTE) of the same customer.</li>
+                        <li>Customer can upload 3 content per month to the said prices.</li>
+                        <li>Jingle can be created from the SLT call center.</li>
+                        <li>Customer can provide their own business recording.</li>
+                    </ul>
+                    <h3 class="sub-title">Pricing :-</h3>
+                    <ul class="product-features">
+                        <li>Business Jingle Content Monthly Rental</li>
+                    </ul>
+                    <table class="table table table-bordered table-settings">
+                        <thead class="table-success align-middle">
+                            <tr>
+                                <th scope="col">Package Name</th>
+                                <th scope="col">Rental Per Line</th>
+                                <th scope="col">Over Riding Range</th>
+                                <th scope="col"></th>
+                            </tr>
+                        </thead>
+                        <tbody class="align-middle">
+                            <tr class="table-warning">
+                                <th scope="col">Business</th>
+                                <td>80</td>
+                                <td>80 - 2000</td>
+                                <td>Less than 5 Telephone connections</td>
+                            </tr>
+                            <tr class="table-warning">
+                                <th scope="col">Corporate</th>
+                                <td>50</td>
+                                <td>50 - 2000</td>
+                                <td>More than or equal to 5 Telephone connections</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <ul class="product-features">
+                        <li>Business Jingle Content creation</li>
+                    </ul>
+                    <table class="table table table-bordered table-settings">
+                        <tbody class="align-middle">
+                            <tr class="table-warning">
+                                <th scope="col">Corporate</th>
+                                <td>5000</td>
+                                <td>5000 - 50000</td>
+                                <td>One time charge</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+        <!-- Product Section End -->
+
+        <!-- Footer Section Start -->
+        <section id="footer-section">
+            <div class="footer-wrapper">
+                <p class="footer-details">© SLT Contact Center All Rights Reserved</p>
+                <p class="footer-details">Website Designed and Developed by Kusal Amarasinghe</p>
+            </div>
+        </section>
+        <!-- Footer Section End -->
+
+
+        <!-- JavaScript Linked -->
+        <script type="text/javascript" src="assets/js/sme.js">
+
+        </script>
+
+</body>
+
+</html>
