@@ -1,9 +1,5 @@
 // Mobile Nav Start//
-<<<<<<< HEAD
 document.getElementById('hamburgerMenu').onclick = function () {
-=======
-document.getElementById('hamburgerMenu').onclick = function(){
->>>>>>> cce7c8481268000118572bf9b65ebaf677110b27
     document.getElementById('mobileCloseBtn').style.display = "inline";
     document.getElementById('hamburgerMenu').style.display = "none";
     document.getElementById('hamMenu').style.display = "flex";
@@ -14,17 +10,9 @@ document.getElementById('hamburgerMenu').onclick = function(){
     document.getElementById('teamSection').style.display = "none";
     document.getElementById('targetsection').style.display = "none";
     document.getElementById('answersection').style.display = "none";
-<<<<<<< HEAD
-
 }
 
 document.getElementById('mobileCloseBtn').onclick = function () {
-=======
-    
-}
-
-document.getElementById('mobileCloseBtn').onclick = function(){
->>>>>>> cce7c8481268000118572bf9b65ebaf677110b27
     document.getElementById('mobileCloseBtn').style.display = "none";
     document.getElementById('hamburgerMenu').style.display = "inline";
     document.getElementById('hamMenu').style.display = "none";
